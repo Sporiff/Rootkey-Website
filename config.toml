@@ -17,6 +17,10 @@ paginate = 5
     name = "About"
     url = "/about"
   [[menu.main]]
+    identified = "Contact"
+    name = "Contact"
+    url = "/contact"
+  [[menu.main]]
     identifier = "RSS"
     name = "RSS"
     url = "/index.xml"
