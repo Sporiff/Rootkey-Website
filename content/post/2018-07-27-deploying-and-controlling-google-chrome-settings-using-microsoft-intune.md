@@ -17,7 +17,7 @@ tags:
   - intune
   - microsoft
 ---
-<figure class="wp-block-image alignleft"><img src="wp-content/uploads/2018/05/Term2.png" alt="" class="wp-image-56" srcset="wp-content/uploads/2018/05/Term2.png 250w, wp-content/uploads/2018/05/Term2-150x150.png 150w" sizes="(max-width: 250px) 100vw, 250px" /></figure>
+<figure class="wp-block-image alignleft"><img src="/wp-content/uploads/2018/05/Term2.png" alt="" class="wp-image-56" srcset="/wp-content/uploads/2018/05/Term2.png 250w, /wp-content/uploads/2018/05/Term2-150x150.png 150w" sizes="(max-width: 250px) 100vw, 250px" /></figure>
 
 <p class="has-drop-cap">
   Righto. This one has given me a mild headache for the last couple of days, but I&#8217;ve found a workable solution that allows me to set a home page for users in Chrome. You would have thought that would be really easy, right? Well, Google in its infinite wisdom has decided that conventional Windows management is for wusses. So down the rabbit hole we go.
@@ -52,40 +52,40 @@ So, what about a .msi file? I got this idea in my head to package the file up as
   * Place the file in a zip archive
   * Run NSIS and select &#8220;Installer based on ZIP file&#8221;<figure class="wp-block-image aligncenter">
 
-<img src="https://rootkey.co.uk/wp-content/uploads/2018/07/image.png" alt="" class="wp-image-146" srcset="https://rootkey.co.uk/wp-content/uploads/2018/07/image.png 604w, https://rootkey.co.uk/wp-content/uploads/2018/07/image-300x195.png 300w" sizes="(max-width: 604px) 100vw, 604px" /></figure>
+<img src="/wp-content/uploads/2018/07/image.png" alt="" class="wp-image-146" srcset="/wp-content/uploads/2018/07/image.png 604w, /wp-content/uploads/2018/07/image-300x195.png 300w" sizes="(max-width: 604px) 100vw, 604px" /></figure>
 
   * Select your ZIP file, give the installer a suitable name, and set the &#8220;Default Folder&#8221; value to &#8220;C:\Program Files (x86)\Google\Chrome\Application&#8221;<figure class="wp-block-image aligncenter">
 
-<img src="https://rootkey.co.uk/wp-content/uploads/2018/07/image-1.png" alt="" class="wp-image-147" srcset="https://rootkey.co.uk/wp-content/uploads/2018/07/image-1.png 546w, https://rootkey.co.uk/wp-content/uploads/2018/07/image-1-300x257.png 300w" sizes="(max-width: 546px) 100vw, 546px" /></figure>
+<img src="/wp-content/uploads/2018/07/image-1.png" alt="" class="wp-image-147" srcset="/wp-content/uploads/2018/07/image-1.png 546w, /wp-content/uploads/2018/07/image-1-300x257.png 300w" sizes="(max-width: 546px) 100vw, 546px" /></figure>
 
   * Hit &#8220;Generate&#8221; and locate your newly created .exe file
   * Next, open up exemsi and click &#8220;Next&#8221; to start the wizard<figure class="wp-block-image aligncenter">
 
-<img src="https://rootkey.co.uk/wp-content/uploads/2018/07/image-2.png" alt="" class="wp-image-148" srcset="https://rootkey.co.uk/wp-content/uploads/2018/07/image-2.png 511w, https://rootkey.co.uk/wp-content/uploads/2018/07/image-2-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
+<img src="/wp-content/uploads/2018/07/image-2.png" alt="" class="wp-image-148" srcset="/wp-content/uploads/2018/07/image-2.png 511w, /wp-content/uploads/2018/07/image-2-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
 
   * Select your newly created executable and change the .msi name if desired<figure class="wp-block-image aligncenter">
 
-<img src="https://rootkey.co.uk/wp-content/uploads/2018/07/image-3.png" alt="" class="wp-image-149" srcset="https://rootkey.co.uk/wp-content/uploads/2018/07/image-3.png 511w, https://rootkey.co.uk/wp-content/uploads/2018/07/image-3-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
+<img src="/wp-content/uploads/2018/07/image-3.png" alt="" class="wp-image-149" srcset="/wp-content/uploads/2018/07/image-3.png 511w, /wp-content/uploads/2018/07/image-3-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
 
   * In the installer options, select &#8220;Per Machine&#8221; under &#8220;MSI installation context&#8221;. This is required to allow you to deploy to devices as opposed to users. If users are your targets, set this to &#8220;Per User&#8221;<figure class="wp-block-image aligncenter">
 
-<img src="https://rootkey.co.uk/wp-content/uploads/2018/07/image-4.png" alt="" class="wp-image-150" srcset="https://rootkey.co.uk/wp-content/uploads/2018/07/image-4.png 511w, https://rootkey.co.uk/wp-content/uploads/2018/07/image-4-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
+<img src="/wp-content/uploads/2018/07/image-4.png" alt="" class="wp-image-150" srcset="/wp-content/uploads/2018/07/image-4.png 511w, /wp-content/uploads/2018/07/image-4-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
 
   * Give your application and ID and generate an Upgrade Code. This will allow you to uninstall and supersede if needs be, so keep a note of it and use the same code for any new iterations. Intune will notify you if the codes do not match<figure class="wp-block-image aligncenter">
 
-<img src="https://rootkey.co.uk/wp-content/uploads/2018/07/image-5.png" alt="" class="wp-image-151" srcset="https://rootkey.co.uk/wp-content/uploads/2018/07/image-5.png 511w, https://rootkey.co.uk/wp-content/uploads/2018/07/image-5-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
+<img src="/wp-content/uploads/2018/07/image-5.png" alt="" class="wp-image-151" srcset="/wp-content/uploads/2018/07/image-5.png 511w, /wp-content/uploads/2018/07/image-5-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
 
   * Enter some information about the product including the name, the manufacturer, and the version number<figure class="wp-block-image aligncenter">
 
-<img src="https://rootkey.co.uk/wp-content/uploads/2018/07/image-6.png" alt="" class="wp-image-152" srcset="https://rootkey.co.uk/wp-content/uploads/2018/07/image-6.png 511w, https://rootkey.co.uk/wp-content/uploads/2018/07/image-6-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
+<img src="/wp-content/uploads/2018/07/image-6.png" alt="" class="wp-image-152" srcset="/wp-content/uploads/2018/07/image-6.png 511w, /wp-content/uploads/2018/07/image-6-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
 
   * Optionally, set up contact links<figure class="wp-block-image aligncenter">
 
-<img src="https://rootkey.co.uk/wp-content/uploads/2018/07/image-7.png" alt="" class="wp-image-153" srcset="https://rootkey.co.uk/wp-content/uploads/2018/07/image-7.png 511w, https://rootkey.co.uk/wp-content/uploads/2018/07/image-7-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
+<img src="/wp-content/uploads/2018/07/image-7.png" alt="" class="wp-image-153" srcset="/wp-content/uploads/2018/07/image-7.png 511w, /wp-content/uploads/2018/07/image-7-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
 
   * For install and uninstall arguments, use the flag &#8220;/S&#8221; (make sure this is capital). This is the standard NSIS silent install flag<figure class="wp-block-image aligncenter">
 
-<img src="https://rootkey.co.uk/wp-content/uploads/2018/07/image-8.png" alt="" class="wp-image-154" srcset="https://rootkey.co.uk/wp-content/uploads/2018/07/image-8.png 511w, https://rootkey.co.uk/wp-content/uploads/2018/07/image-8-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
+<img src="/wp-content/uploads/2018/07/image-8.png" alt="" class="wp-image-154" srcset="/wp-content/uploads/2018/07/image-8.png 511w, /wp-content/uploads/2018/07/image-8-285x300.png 285w" sizes="(max-width: 511px) 100vw, 511px" /></figure>
 
   * There is no need to enter any before/after command lines
   * Hit &#8220;Build&#8221; at the end and it will generate a .msi
