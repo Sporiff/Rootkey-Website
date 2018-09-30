@@ -1,6 +1,6 @@
-languageCode = "en-us"
-title = "Dark Simplicity"
-baseurl = "http://example.org/"
+languageCode = "en-gb"
+title = "Rootkey"
+baseurl = "https://rootkey.netlify.com/"
 theme = "darksimplicity"
 min_version = 0.45
 contentdir = "content"
@@ -20,10 +20,6 @@ tag = "tags"
 
 [menu]
   [[menu.top]]
-  name = "Twitter"
-  pre = ""
-  weight = -100
-  url = "http://www.twitter.com/Username"
   [[menu.top]]
   name = "RSS"
   pre = ""
