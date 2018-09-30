@@ -1,4 +1,4 @@
-baseURL = "rootkey.netlify.com"
+baseURL = ""
 languageCode = "en-gb"
 title = "Rootkey"
 theme = "darksimplicity"
