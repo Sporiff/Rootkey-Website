@@ -1,4 +1,18 @@
 baseURL = ""
 languageCode = "en-gb"
 title = "Rootkey"
-theme = "darksimplicity"
+theme = "hello-friend"
+copyright = ""
+paginate = 5
+
+[params]
+  subtitle = "Life Inside a Computer"
+
+[params.logo]
+  logoText = "Rootkey"
+
+[menu]
+  [[menu.main]]
+    identifier = "RSS"
+    name = "RSS"
+    url = "/index.xml"
