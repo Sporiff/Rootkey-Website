@@ -2,7 +2,6 @@
 title: "About me"
 date: "2018-09-30"
 Author: "Ciarán Ainsworth"
-draft: false
 +++
 
 <h2>> Howdy<span class="logo__cursor" style="width: 3px; height:
