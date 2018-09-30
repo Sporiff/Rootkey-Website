@@ -1,7 +1,7 @@
 +++
-title: "About me"
-date: "2018-09-30"
-Author: "Ciarán Ainsworth"
+title = "About me"
+date = "2018-09-30"
+Author = "Ciarán Ainsworth"
 +++
 
 <h2>> Howdy<span class="logo__cursor" style="width: 3px; height:
