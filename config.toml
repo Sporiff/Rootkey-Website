@@ -16,3 +16,7 @@ paginate = 5
     identifier = "RSS"
     name = "RSS"
     url = "/index.xml"
+  [[menu.main]]
+    identifier = "Blog"
+    name = "Blog"
+    url = "/post/"
