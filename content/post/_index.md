@@ -1,5 +1,5 @@
 +++
 title = "Rootkey"
-draft: true
+draft = false
 +++
 
