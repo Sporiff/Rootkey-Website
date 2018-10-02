@@ -24,6 +24,10 @@ paginate = 5
     name = "RSS"
     url = "/index.xml"
   [[menu.main]]
+    identifier = "Support"
+    name = "Support"
+    url = "https://liberapay.com/Rootkey/donate"
+   [[menu.main]]
     identifier = "Blog"
     name = "Blog"
     url = "/post/"
