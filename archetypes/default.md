@@ -1,6 +1,14 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: ""
 date: {{ .Date }}
-draft: true
+author: "Ciarán Ainsworth"
+draft: false
+categories:
+
+-
+
+tags:
+
+-
 ---
 

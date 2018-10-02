@@ -1,8 +1,7 @@
-baseURL = ""
+baseURL = "https://rootkey.co.uk/"
 languageCode = "en-gb"
 title = "Rootkey"
 theme = "hello-friend"
-copyright = ""
 paginate = 5
 
 [params]
