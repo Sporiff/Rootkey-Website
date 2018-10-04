@@ -10,8 +10,6 @@ paginate = 5
 [params.logo]
   logoText = "Rootkey"
 
-coverImage = "static/FSF.png"
-
 [menu]
   [[menu.main]]
     identifier = "About"
@@ -29,7 +27,11 @@ coverImage = "static/FSF.png"
     identifier = "Support"
     name = "Support"
     url = "https://liberapay.com/Rootkey/donate"
-   [[menu.main]]
+  [[menu.main]]
     identifier = "Blog"
     name = "Blog"
     url = "/post/"
+
+  [params.footer]
+    <img src = https://rootkey.co.uk/static/FSF.png>
+    copyright = "Ciarán Ainsworth | Theme modified from <a href=\"https://github.com/panr/hugo-theme-hello-friend/">Hello-Friend</a>"
