@@ -1,5 +1,5 @@
-
-://keybase.io/sporiff
+==================================================================================================================================
+https://keybase.io/sporiff
 --------------------------------------------------------------------
 
 I hereby claim:
@@ -20,37 +20,37 @@ To do so, I am signing this object:
       "username": "sporiff"
     },
     "merkle_root": {
-      "ctime": 1538690506,
-      "hash": "bf7d2d462a7f537515585f8048188c24a1f0caab610999d037bb72937141bc2168744f401cbb5aeabf91fa8373c0547911835962052e1af55c865315b1dfc599",
-      "hash_meta": "bc0bbeeb42d469d0e790eb844350a468f6d19093673be62ae6df01f34157ad82",
-      "seqno": 3747303
+      "ctime": 1538690909,
+      "hash": "fde7e1dd6fa16dc72e054023eac0ceb4c6f3ac37ffae0620d5e853619ee5f71e7e827d8e7187e1f5e4c00bfe92cc6cda612d00d802bdf51d31023b63d91b910c",
+      "hash_meta": "a38f5adba8642f87e700beb8b1068f3c700eafdaf78bd13ec948454fdd820d7b",
+      "seqno": 3747341
     },
     "service": {
-      "entropy": "Z+/2/uK8IvOM0kuO7C4opMsv",
+      "entropy": "yvBGnftqwrhiGztW8yFOk3N7",
       "hostname": "rootkey.co.uk",
       "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 2
-  },
+  },"version
   "client": {
     "name": "keybase.io go client",
     "version": "2.7.0"
   },
-  "ctime": 1538690539,
+  "ctime": 1538690927,
   "expire_in": 504576000,
-  "prev": "8a4ae5d6f78b3ff3fa5e90f0800d71f37bfad4a12db5132edd50e3c3080a2c16",
-  "seqno": 33,
+  "prev": "acab3323c70be35914de6220bbff6a9a68830f61463cdceb5678c07709e1f690",
+  "seqno": 35,
   "tag": "signature"
 }
 
 which yields the signature:
 
-HdPSfFmg9nDhFMXSBcV0Bvi5X0Zqo6QT6I9aV5AHb4fAgHCo3NpZ8RA8Bzby/R82ZjBIs5KoMBWoCDI6AZ7po7cwK0Jcdqa08GiWmHqn18zXQQs2jxG2taSXRQdEI1oba/hItFtCyxBAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAxutiiwYuJ7GPupw0M3fwdSP1otjkEg9ddFajROc28Eo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAkcBodU7w0TmcLE7a+sMgSn7jOrX984XUnAMMCLj3gwKp3BheWxvYWTESpcCI8QgrKszI8cL41kU3mIgu/9qmmiDD2FGPNzrVnjAdwnh9pDEIB11YqpMPHrlb3m1gmpr8mgtTumh+6XrHVLlo5yYzYDAAgHCo3NpZ8RAKsApOq9vnsJMj30qOlaGHbGEnvP4STPMUCDK+6fI2Pi+B28Qq7teBCuXS8Uh+JEf5H+FwVhuU6aI745ON1KPDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJn2ik4uVXzw+7SqYr678VxgbLbqbjJB9I8tn+RFuzPNo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
 View my publicly-auditable identity here: https://keybase.io/sporiff
 
-==================================================================hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAkcBodU7w0TmcLE7a+sMgSn7jOrX984XUnAMMCLj3gwKp3BheWxvYWTESpcCIcQgikrl1veLP/P6XpDwgA1x83v61KEttRMu3VD3 - Such Great Heights (John Tejada Remix).flac
+===================================================================================================================================
