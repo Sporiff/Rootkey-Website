@@ -10,6 +10,8 @@ paginate = 5
 [params.logo]
   logoText = "Rootkey"
 
+coverImage = "static/FSF.png"
+
 [menu]
   [[menu.main]]
     identifier = "About"
