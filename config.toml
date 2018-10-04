@@ -3,6 +3,7 @@ languageCode = "en-gb"
 title = "Rootkey"
 theme = "hello-friend"
 paginate = 5
+copyright  = "Copyright 2018-{year} Ciarán Ainsworth. Theme by {panr}(https://github.com/panr/hugo-theme-hello-friend).
 
 [params]
   subtitle = "Life Inside a Computer"
