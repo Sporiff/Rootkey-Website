@@ -31,7 +31,3 @@ paginate = 5
     identifier = "Blog"
     name = "Blog"
     url = "/post/"
-
-  [params.footer]
-    image = "/static/FSF.png"
-    copyright = "Ciarán Ainsworth | Theme modified from [Hello-Friend](https://github.com/panr/hugo-theme-hello-friend)"
