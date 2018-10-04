@@ -33,5 +33,5 @@ paginate = 5
     url = "/post/"
 
   [params.footer]
-    <img src = "https://rootkey.co.uk/static/FSF.png">
-    copyright = "Ciarán Ainsworth | Theme modified from <a href= "https://github.com/panr/hugo-theme-hello-friend/">Hello-Friend</a>"
+    image = "/static/FSF.png"
+    copyright = "Ciarán Ainsworth | Theme modified from [Hello-Friend](https://github.com/panr/hugo-theme-hello-friend)"
