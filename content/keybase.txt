@@ -1,0 +1,56 @@
+
+://keybase.io/sporiff
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rootkey.co.uk
+  * I am sporiff (https://keybase.io/sporiff) on keybase.
+  * I have a public key ASACRwGh1TvDROZwsTtr6wyBKfuM6tf3zhdScAwwIuPeDAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205504f9966b10b78aed867f8505014bdc2c99aba0060b73c8951e2ae138b0725a0a",
+      "host": "keybase.io",
+      "kid": "0120024701a1d53bc344e670b13b6beb0c8129fb8cead7f7ce1752700c3022e3de0c0a",
+      "uid": "74a1582e6a6efc77f9ea9cd83c753b19",
+      "username": "sporiff"
+    },
+    "merkle_root": {
+      "ctime": 1538690506,
+      "hash": "bf7d2d462a7f537515585f8048188c24a1f0caab610999d037bb72937141bc2168744f401cbb5aeabf91fa8373c0547911835962052e1af55c865315b1dfc599",
+      "hash_meta": "bc0bbeeb42d469d0e790eb844350a468f6d19093673be62ae6df01f34157ad82",
+      "seqno": 3747303
+    },
+    "service": {
+      "entropy": "Z+/2/uK8IvOM0kuO7C4opMsv",
+      "hostname": "rootkey.co.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.7.0"
+  },
+  "ctime": 1538690539,
+  "expire_in": 504576000,
+  "prev": "8a4ae5d6f78b3ff3fa5e90f0800d71f37bfad4a12db5132edd50e3c3080a2c16",
+  "seqno": 33,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+HdPSfFmg9nDhFMXSBcV0Bvi5X0Zqo6QT6I9aV5AHb4fAgHCo3NpZ8RA8Bzby/R82ZjBIs5KoMBWoCDI6AZ7po7cwK0Jcdqa08GiWmHqn18zXQQs2jxG2taSXRQdEI1oba/hItFtCyxBAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAxutiiwYuJ7GPupw0M3fwdSP1otjkEg9ddFajROc28Eo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sporiff
+
+==================================================================hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAkcBodU7w0TmcLE7a+sMgSn7jOrX984XUnAMMCLj3gwKp3BheWxvYWTESpcCIcQgikrl1veLP/P6XpDwgA1x83v61KEttRMu3VD3 - Such Great Heights (John Tejada Remix).flac
