@@ -49,7 +49,7 @@ Then the disk tray failed.
 
 At this point, it was apparent even to my then 16-year-old mind that I'd bought into a scam. This machine, sold to me as a luxury item worthy of a near £1,000 charge, was more flimsy than the atrocious Acer Aspire it had replaced. It was slow, expensive, frustrating, loud, and completely unfit for purpose. After 3 years of use, I cut my losses and returned to the world of Windows[^1].
 
-##The Right to Repair
+## The Right to Repair
 
 So what does this little story have to do with the recent news? Quite simply, one of the best things about general purpose computers is that they are infinitely repairable. The best models (usually old IBM/Lenovo ThinkPads) are very modular and allow for the replacement of the majority of components by anybody with a toolkit and a bit of knowledge. At the very worst, you can usually call out a trained mechanic and have them repair the machine at a much lower cost than the OEM.
 
@@ -59,7 +59,7 @@ Mac hardware is flimsy and easy-to-break *by design*. The machine upon which I a
 
 But this latest move is a real kick in the teeth for the industry as a whole. Before, you could take your machine to Apple or a reseller for major repairs, but small things like replacement keys and screens could be easily and cheaply repaired by yourself or an independent repair worker. This new move makes that an impossibility and is utterly anti-consumer. Watching people defend it is hilarious and heartbreaking (I was there once, too, don't forget).
 
-##What to do?
+## What to do?
 
 Apple is not the only offender here, even though they are the most egregious. PC manufacturers and Android phone makers are similarly locking down devices and making repairs difficult and risky. If you own a modern Lenovo ThinkPad (particularly models such as the X1 Carbon), you are going to have a much harder time getting in to repair things when they break. This means purchasing additional warranties is usually necessary because it feels - at least to me - that machines these days are much more likely to break.
 
@@ -67,6 +67,8 @@ I was at FOSDEM in February and was - well, not exactly surprised, more *pleasan
 
 But hey, you know. MacBooks *are* shiny.
 
-[1]: During my university years I encountered many people using Macs (after all, I studied film) and always felt slightly smug when I could render things at a fraction of the speed using my beastly and far cheaper PC.
-[2]: They tend to crash differently, at the very least.
-[3]: An important note is that modern processors - while faster - are not so *much* faster that they need to be snapped up while leaving perfectly functional models behind. The major difference between models like i3, i5, and i7 lies in their graphics capabilities, not their processing power. The Core 2 Duo is actually a perfectly reasonable processor for the majority of people if they don't use a ridiculous number of graphically intensive programs.
+[^1]: During my university years I encountered many people using Macs (after all, I studied film) and always felt slightly smug when I could render things at a fraction of the speed using my beastly and far cheaper PC.
+
+[^2]: They tend to crash differently, at the very least.
+
+[^3]: An important note is that modern processors - while faster - are not so *much* faster that they need to be snapped up while leaving perfectly functional models behind. The major difference between models like i3, i5, and i7 lies in their graphics capabilities, not their processing power. The Core 2 Duo is actually a perfectly reasonable processor for the majority of people if they don't use a ridiculous number of graphically intensive programs.
