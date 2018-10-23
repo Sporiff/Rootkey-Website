@@ -29,7 +29,7 @@ In [an earlier post](https://rootkey.co.uk/post/2018-10-02-personal-matters/) I 
 
 ### Installation Process
 
-As one might imagine, installation of Elementary is as simple as most desktop-oriented GNU/Linux distros these days. Plug in a live USB, choose to install, and follow the instructions. Given that I was coming from an Arch Linux install, this process was quick and easy. It took about 5 minutes from start to finish and at the end (though I had to initially remember to unset the nouveau modeset) I was able to boot into the system with no issues. Quick, easy, unobtrusive, as expected really.
+As one might imagine, installation of Elementary is as simple as most desktop-oriented GNU/Linux distros these days. Plug in a live USB, choose to install, and follow the instructions. Given that I was coming from an Arch Linux install, this process was quick and easy. It took about 15 minutes from start to finish and at the end (though I had to initially remember to unset the nouveau modeset) I was able to boot into the system with no issues. Quick, easy, unobtrusive, as expected really.
 
 I was slightly surprised to see the Ubuntu installer being used as I seem to remember some blog posts about improving the installer to push people towards disk encryption, but apparently while this has been added to Pop! OS it's still not in Elementary. Strange.
 
