@@ -9,3 +9,4 @@ channels.
 
 - Email: [ciaranainsworth@outlook.com](mailto:ciaranainsworth@outlook.com)
 - Matrix: @kitaro:matrix.org
+- XMPP/Jabber: sanpei@member.fsf.org
