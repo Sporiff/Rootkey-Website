@@ -4,4 +4,4 @@ A simple static page blog written in Markdown
 
 ## Hosted on GitHub
 
-Because why not?
+This site is hosted on Github.
