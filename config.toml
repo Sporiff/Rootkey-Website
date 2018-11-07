@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "Rootkey"
 theme = "hello-friend"
 paginate = 5
-copyright  = "Written by Ciarán Ainsworth. Theme by panr." <a rel="me" href="https://fosstodon.org/@Sporiff">Mastodon</a>
+copyright  = "Written by Ciarán Ainsworth. Theme by panr."
 
 [params]
   subtitle = "Life Inside a Computer"
