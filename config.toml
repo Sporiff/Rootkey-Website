@@ -27,7 +27,7 @@ copyright  = "Written by Ciarán Ainsworth. Theme by panr."
   [[menu.main]]
     identifier = "Support"
     name = "Support"
-    url = "https://liberapay.com/Rootkey/donate"
+    url = "https://liberapay.com/CiaranAinsworth/donate"
   [[menu.main]]
     identifier = "Blog"
     name = "Blog"
