@@ -7,6 +7,7 @@ I try not to interact with social media too much any more as it has started to
 make me feel pretty crummy. However, I'm still reachable by a couple of
 channels.
 
-- Email: [ciaranainsworth@outlook.com](mailto:ciaranainsworth@outlook.com)
+- Email: [ciaranainsworth@posteo.net](mailto:ciaranainsworth@posteo.net)
 - Matrix: @kitaro:matrix.org
+- Mastodon: [@Sporiff](https://bakusocial.com/@Sporiff)
 - XMPP/Jabber: sanpei@member.fsf.org
