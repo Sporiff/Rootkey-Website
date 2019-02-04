@@ -32,3 +32,7 @@ copyright  = "Written by Ciarán Ainsworth. Theme by panr."
     identifier = "Blog"
     name = "Blog"
     url = "/post/"
+  [[menu.main]]
+    identifier = "Music"
+    name = "Music"
+    url = "/music/"
