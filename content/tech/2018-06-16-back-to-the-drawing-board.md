@@ -3,7 +3,7 @@ id: 137
 title: Back to the Drawing Board
 date: 2018-06-16T15:22:08+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=137
 permalink: /2018/06/16/back-to-the-drawing-board/
 categories:

@@ -3,6 +3,7 @@ title: "Elementary OS Juno"
 date: 2018-10-23T20:01:59+01:00
 author: "Ciarán Ainsworth"
 draft: false
+type: post
 categories:
 
 - technology

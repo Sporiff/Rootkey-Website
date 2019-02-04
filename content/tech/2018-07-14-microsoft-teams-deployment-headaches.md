@@ -3,7 +3,7 @@ id: 140
 title: 'Microsoft Teams: Deployment Headaches'
 date: 2018-07-14T22:00:34+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=140
 permalink: /2018/07/14/microsoft-teams-deployment-headaches/
 categories:

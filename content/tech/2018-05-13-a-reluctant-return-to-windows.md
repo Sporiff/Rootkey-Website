@@ -3,7 +3,7 @@ id: 89
 title: A Reluctant Return to Windows
 date: 2018-05-13T17:16:49+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=89
 permalink: /2018/05/13/a-reluctant-return-to-windows/
 categories:

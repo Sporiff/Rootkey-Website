@@ -3,7 +3,7 @@ id: 76
 title: Another Day, Another Intel Fail
 date: 2018-05-09T14:18:35+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=76
 permalink: /2018/05/09/another-day-another-intel-fail/
 categories:

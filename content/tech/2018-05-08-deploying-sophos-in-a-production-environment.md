@@ -3,7 +3,7 @@ id: 61
 title: Deploying Sophos in a Production Environment
 date: 2018-05-08T22:03:02+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=61
 permalink: /2018/05/08/deploying-sophos-in-a-production-environment/
 categories:

@@ -3,6 +3,7 @@ title: "Apple's T2 Chip: Drink the Cider"
 date: 2018-10-06
 author: "Ciarán Ainsworth"
 draft: false
+type: post
 categories:
 
 - Technology

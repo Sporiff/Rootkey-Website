@@ -3,7 +3,7 @@ id: 111
 title: Getting on with Gutenberg
 date: 2018-05-20T15:52:57+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=111
 permalink: /2018/05/20/getting-on-with-gutenberg/
 categories:

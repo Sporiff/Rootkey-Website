@@ -3,7 +3,7 @@ id: 123
 title: Some More Windows Work
 date: 2018-06-02T20:14:52+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=123
 permalink: /2018/06/02/some-more-windows-work/
 categories:

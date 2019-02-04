@@ -3,6 +3,7 @@ title: "Another Update"
 date: 2019-02-04T21:10:45Z
 author: "Ciarán Ainsworth"
 draft: false
+type: post
 categories:
 
 - Technology

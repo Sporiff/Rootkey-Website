@@ -3,7 +3,7 @@ id: 51
 title: Uncontrolled devices. Not even once.
 date: 2018-05-08T20:27:24+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=51
 permalink: /2018/05/08/uncontrolled-devices-not-even-once/
 categories:

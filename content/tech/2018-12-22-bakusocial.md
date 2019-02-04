@@ -3,6 +3,7 @@ title: "Baku Social"
 date: 2018-12-22T18:57:27Z
 author: "Ciarán Ainsworth"
 draft: false
+type: post
 categories:
 
 - technology

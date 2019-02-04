@@ -3,7 +3,7 @@ id: 105
 title: Knit and Perl
 date: 2018-05-15T23:07:27+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=105
 permalink: /2018/05/15/knit-and-perl/
 categories:

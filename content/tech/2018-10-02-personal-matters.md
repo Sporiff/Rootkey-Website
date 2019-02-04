@@ -3,6 +3,7 @@ title: "Personal Matters"
 author: "Ciarán Ainsworth"
 date: 2018-10-02T08:41:40+01:00
 draft: false
+type: post
 categories:
 
 - technology

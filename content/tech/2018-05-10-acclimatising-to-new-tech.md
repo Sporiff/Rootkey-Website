@@ -3,7 +3,7 @@ id: 84
 title: Acclimatising to New Tech
 date: 2018-05-10T13:42:33+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=84
 permalink: /2018/05/10/acclimatising-to-new-tech/
 categories:

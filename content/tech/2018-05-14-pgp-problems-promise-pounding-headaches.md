@@ -3,7 +3,7 @@ id: 98
 title: PGP Problems Promise Pounding Headaches
 date: 2018-05-14T12:01:15+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=98
 permalink: /2018/05/14/pgp-problems-promise-pounding-headaches/
 categories:

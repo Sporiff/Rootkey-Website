@@ -3,7 +3,7 @@ id: 145
 title: Deploying and Controlling Google Chrome Settings Using Microsoft Intune
 date: 2018-07-27T10:19:38+00:00
 author: Ciarán Ainsworth
-layout: post
+type: post
 guid: https://rootkey.co.uk/?p=145
 permalink: /2018/07/27/deploying-and-controlling-google-chrome-settings-using-microsoft-intune/
 categories:
