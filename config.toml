@@ -6,7 +6,7 @@ paginate = 5
 [params]
   contentTypeName = "post"
   themecolor = "green"
-  showMenuItems = 5
+  showMenuItems = 7
   favicon = "static/img/favicon/favicon.png"
 
 [languages]
@@ -43,11 +43,15 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "Blog"
         name = "Blog"
-        url = "/post/"
+        url = "/blog/"
       [[languages.en.menu.main]]
         identifier = "Music"
         name = "Music"
         url = "/music/"
+      [[languages.en.menu.main]]
+        identifier = "Tech"
+        name = "Tech"
+        url = "/tech/"
       [[languages.en.menu.main]]
         identifier = "Resumé"
         name = "Resumé"
