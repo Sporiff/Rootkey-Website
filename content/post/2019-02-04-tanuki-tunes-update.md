@@ -62,7 +62,7 @@ FTBot which I need to look into. Once that's solved, I'll be looking in to other
 content to make bots for. Any suggestions are welcome, just PM me on [Mastodon](https://bakusocial.com/@sporiff).
 
 Lastly, I've updated the theme for [Rootkey](https://rootkey.co.uk) just for a change
-of pace. I've also made a dedicated subdirectory for any music I post, all of which
+of pace. I've also made a dedicated [subdirectory for any music I post](https://rootkey.co.uk/music/), all of which
 can be streamed directly on the site from [Tanuki Tunes](https://tanukitunes.com/about)
 thanks to a new embed feature included in version 0.18 of Funkwhale.
 
