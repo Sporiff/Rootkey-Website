@@ -4,7 +4,6 @@ theme = "terminal"
 paginate = 5
 
 [params]
-  contentTypeName = "post", "music"
   themecolor = "green"
   showMenuItems = 5
 
