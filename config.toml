@@ -1,38 +1,49 @@
 baseURL = "https://rootkey.co.uk/"
 languageCode = "en-gb"
-title = "Rootkey"
-theme = "hello-friend"
+theme = "terminal"
 paginate = 5
-copyright  = "Written by Ciarán Ainsworth. Theme by panr."
 
 [params]
-  subtitle = "Life Inside a Computer"
+  contentTypeName = "posts"
+  themecolor = "green"
+  showMenuItems = 2
 
-[params.logo]
-  logoText = "Rootkey"
+[languages]
+  [languages.en]
+    title = "Rootkey"
+    subtitle = "Life inside a computer"
+    keywords = ""
+    copyright = "Written by Ciarán Ainsworth. Theme by panr."
+    menuMore = "Show More"
+    readMore = "Read More"
+    readOtherPosts = "Read Other Posts"
 
-[menu]
-  [[menu.main]]
-    identifier = "About"
-    name = "About"
-    url = "/about"
-  [[menu.main]]
-    identified = "Contact"
-    name = "Contact"
-    url = "/contact"
-  [[menu.main]]
-    identifier = "RSS"
-    name = "RSS"
-    url = "/index.xml"
-  [[menu.main]]
-    identifier = "Support"
-    name = "Support"
-    url = "https://liberapay.com/CiaranAinsworth/donate"
-  [[menu.main]]
-    identifier = "Blog"
-    name = "Blog"
-    url = "/post/"
-  [[menu.main]]
-    identifier = "Music"
-    name = "Music"
-    url = "/music/"
+    [languages.en.params.logo]
+      logoText = "Rootkey"
+      logoHomeLink = "https://rootkey.co.uk/"
+
+    [languages.en.menu]
+      [[menu.main]]
+        identifier = "About"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identified = "Contact"
+        name = "Contact"
+        url = "/contact"
+      [[languages.en.menu.main]]
+        identifier = "RSS"
+        name = "RSS"
+        url = "/index.xml"
+      [[languages.en.menu.main]]
+        identifier = "Support"
+        name = "Support"
+        url = "https://liberapay.com/CiaranAinsworth/donate"
+      [[languages.en.menu.main]]
+        identifier = "Blog"
+        name = "Blog"
+        url = "/post/"
+      [[languages.en.menu.main]]
+        identifier = "Music"
+        name = "Music"
+        url = "/music/"
