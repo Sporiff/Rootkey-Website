@@ -48,3 +48,7 @@ paginate = 5
         identifier = "Music"
         name = "Music"
         url = "/music/"
+      [[languages.en.menu.main]]
+        identifier = "Resumé"
+        name = "Resumé"
+        url = "/resume"
