@@ -4,9 +4,9 @@ theme = "terminal"
 paginate = 5
 
 [params]
-  contentTypeName = "posts"
+  contentTypeName = "post"
   themecolor = "green"
-  showMenuItems = 2
+  showMenuItems = 5
 
 [languages]
   [languages.en]
