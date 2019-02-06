@@ -4,7 +4,7 @@ date: 2019-02-05T23:51:02Z
 author: "Ciarán Ainsworth"
 draft: false
 type: post
-[categories](categories):
+categories:
 
 - Tech
 
