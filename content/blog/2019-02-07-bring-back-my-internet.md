@@ -20,7 +20,7 @@ tags:
 
 # Mixed Messages
 
-Okay, so I'm slightly reneging on my [earlier post](./2019-02-04-more-writing) by writing
+Okay, so I'm slightly reneging on my [earlier post](../2019-02-04-more-writing) by writing
 about computers again, but trust me when I say this one is as
 much personal as it is technical.
 
