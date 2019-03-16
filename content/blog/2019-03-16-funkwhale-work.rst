@@ -16,6 +16,9 @@ tags:
 - programming
 ---
 
+Throwing my Hat in the Ring
+===========================
+
 Switching to reStructuredText
 =============================
 
