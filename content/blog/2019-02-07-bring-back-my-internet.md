@@ -31,8 +31,11 @@ having a Facebook account. Or a Twitter account. Or anything that
 they have bar email.
 
 > I'll add you on Facebook. How do you spell your name?
+>
 > C-I-A-R-A-N, but I'm not on Facebook
+>
 > Why not?
+>
 > Too many reasons
 
 At this point in the conversation, I'm pretty much the asshole,
