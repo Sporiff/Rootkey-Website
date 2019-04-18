@@ -3,9 +3,10 @@ title: "New Developments"
 date: 2019-04-18T22:11:47+01:00
 author: "Ciarán Ainsworth"
 draft: false
+type: post
 categories:
 
-- blog
+- Blog
 
 tags:
 
