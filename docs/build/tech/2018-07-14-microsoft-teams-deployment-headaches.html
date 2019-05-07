@@ -1,0 +1,300 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-gb" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-gb" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Microsoft Teams Deployment Headaches &mdash; Rootkey 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Back to the Drawing Board" href="2018-06-16-back-to-the-drawing-board.html" />
+    <link rel="prev" title="Deploying and Controlling Google Chrome Settings Using Microsoft Intune" href="2018-07-27-deploying-and-controlling-google-chrome-settings-using-microsoft-intune.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Rootkey
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../blog/index.html">My Blog</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Technology</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="2019-04-25-matrix-is-here.html">Matrix is Here</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019-02-05-goodbye-guix.html">Goodbye, Guix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019-02-04-tanuki-tunes-update.html">Tanuki Tunes Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019-01-11-baku-social-news.html">Baku Social News</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-12-22-bakusocial.html">Baku Social</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-25-thermy.html">Thermy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-23-elementary-juno.html">Elementary OS Juno</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-06-apple-drink-cider.html">Apple: Drink the Cider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-02-personal-matters.html">Personal Matters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-01-new-site.html">New Site</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-07-27-deploying-and-controlling-google-chrome-settings-using-microsoft-intune.html">Deploying and Controlling Google Chrome Settings Using Microsoft Intune</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Microsoft Teams Deployment Headaches</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#sccm-deployments">SCCM Deployments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#intune-deployments">Intune Deployments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stopping-autostart">Stopping AutoStart</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="2018-06-16-back-to-the-drawing-board.html">Back to the Drawing Board</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-06-02-some-more-windows-work.html">Some More Windows Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-20-getting-on-with-gutenberg.html">Getting on With Gutenberg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-15-knit-and-perl.html">Knit and Perl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-14-pgp-problems-promise-pounding-headaches.html">PGP Problems Promise Pounding Headaches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-13-a-reluctant-return-to-windows.html">A Reluctant Return to Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-10-acclimatising-to-new-tech.html">Acclimitising to New Tech</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-09-another-day-another-intel-fail.html">Another Day Another Intel Fail</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-08-uncontrolled-devices-not-even-once.html">Uncontrolled Devices: Not Even Once</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-08-deploying-sophos-in-a-production-environment.html">Deploying Sophos in a Production environment</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../music/index.html">Music I’ve Made</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about.html">About Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact.html">Contact Me</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Rootkey</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Technology</a> &raquo;</li>
+        
+      <li>Microsoft Teams Deployment Headaches</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/tech/2018-07-14-microsoft-teams-deployment-headaches.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="microsoft-teams-deployment-headaches">
+<h1>Microsoft Teams Deployment Headaches<a class="headerlink" href="#microsoft-teams-deployment-headaches" title="Permalink to this headline">¶</a></h1>
+<p>So you want to use Microsoft Teams in your organisation, huh? Are you prepared for the pain? The lack of
+documentation? The feeling of utter exasperation at a company unable to properly consider the needs of
+enterprise customers in their new “modern” approach? Well, I’m here to share my experiences with
+you so that hopefully you can avoid some of the pain I had to go through in getting this all ready for our
+upcoming rollout.</p>
+<div class="section" id="sccm-deployments">
+<h2>SCCM Deployments<a class="headerlink" href="#sccm-deployments" title="Permalink to this headline">¶</a></h2>
+<p>Like many of you, my organisation utilises Microsoft’s powerhouse deployment tool: SCCM. Initially, when
+Teams was released it was only available as an executable, which is fine. A little jiggery-pokery with
+detection methods yielded a usable application which could easily be deployed and self-served by users.
+Unfortunately, deploying the .exe and then trying to switch to the .msi requires the use of a
+<a class="reference external" href="https://docs.microsoft.com/en-us/MicrosoftTeams/scripts/powershell-script-teams-deployment-clean-up">cleanup script</a>,
+so we were lucky that Microsoft - in their infinite wisdom - decided to release
+<a class="reference external" href="https://docs.microsoft.com/en-us/MicrosoftTeams/msi-deployment">the .msi “machine-wide installer”</a>
+before we started deploying. Saves us a bit of work.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">.msi</span></code> installer, as you might imagine, works perfectly as an application. The only caveate is that
+the installer is per-user no matter what you specify in your application settings. The program installs
+to the users’ AppData folder, so it can cause headaches in environments which make use of redirected AppData.</p>
+</div>
+<div class="section" id="intune-deployments">
+<h2>Intune Deployments<a class="headerlink" href="#intune-deployments" title="Permalink to this headline">¶</a></h2>
+<p>This is where things got a lot more complicated. Intune is at once a product with a great deal of documentation
+and one with absolutely no useful information. So when my co-worker and I initially uploaded the <code class="docutils literal notranslate"><span class="pre">.msi</span></code> to Intune
+we expected it to work. Nobody else had complained of any issues with the deployment via Intune, so we were surprised
+when every attempt at installation came back as having failed.</p>
+<p>So here’s the thing: Intune HATES deployments based on devices. Nearly every device configuration profile, compliance
+profile, and application deployment is expected to be done per-user. This does not fit our use-case, as users need to
+interact with many different devices in different contexts (e.g. shared user devices and personal devices). For that
+reason, we’ve had a lot of problems getting policies to work and are currently trying to get M$ to fix the issue.</p>
+<p>But what about Teams? After all, the Chrome Enterprise installer worked fine targeting devices. The error message from
+Intune was that devices could not be targeted with user-based installers. But Teams is a “machine-wide installer”, right?
+Well, no. Not exactly. The installer basically just sets up a base downloader that is initiated by a user logging in.
+So how do you get Intune to recognise it as a device installer? You edit the <code class="docutils literal notranslate"><span class="pre">.msi</span></code> of course.</p>
+<p>I personally use <a class="reference external" href="http://www.pantaray.com/msi_super_orca.html">SuperOrca</a> to do this, but there are other
+tools available which can do the same job. Basically you just load up the <code class="docutils literal notranslate"><span class="pre">.msi</span></code> and add the following value
+to a new row. This will set the default installation target to “machine”, and will enable deployment of
+the <code class="docutils literal notranslate"><span class="pre">.msi</span></code> to device collections within Intune.</p>
+</div>
+<div class="section" id="stopping-autostart">
+<h2>Stopping AutoStart<a class="headerlink" href="#stopping-autostart" title="Permalink to this headline">¶</a></h2>
+<p>The single most annoying thing about Microsoft Teams is its inability to shut up. By default, the application is
+set to launch in the foreground at login. It’s not a small app, either, so on older machines it increases load up
+time substantially. When you’re trying to get non-techie users to use new tech (teachers, for example) the LAST
+thing you want to do is annoy them with clunky, slow applications.</p>
+<p>So, I started poring over the documentation looking for an enterprise kill switch for this behaviour. An ADMX
+template, maybe? Doesn’t look like it. A native GPO for Teams behaviour? Nope. Hmm. Okay then. Let’s brush
+off <a class="reference external" href="https://docs.microsoft.com/en-us/sysinternals/downloads/procmon">Procmon</a> and look at what this is doing.</p>
+<p>So it looks like when you enable/disable the autostart from within the Teams desktop application it writes and
+verifies a bunch of regkeys. The one we’re interested in is this one:</p>
+<div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span>&lt;pre class=&quot;wp-block-code&quot;&gt;&lt;code&gt;HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+com.squirrel.Teams.Teams
+C:\Users\%currentuser%\AppData\Local\Microsoft\Teams\Update.exe --processStart &quot;Teams.exe&quot; --process-start-args &quot;--system-initiated&quot;&lt;/code&gt;&lt;/pre&gt;
+</pre></div>
+</div>
+<p>So, by creating a login script using group policy which searches for and removes this key, we effectively wipe
+out the autostart behaviour. Now, we have a working Teams deployment on SCCM. As for Intune, it remains to be seen
+whether or not creating a CSP and installing local GPOs will consistently suppress autostart. To be tested next week.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="2018-06-16-back-to-the-drawing-board.html" class="btn btn-neutral float-right" title="Back to the Drawing Board" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="2018-07-27-deploying-and-controlling-google-chrome-settings-using-microsoft-intune.html" class="btn btn-neutral float-left" title="Deploying and Controlling Google Chrome Settings Using Microsoft Intune" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Ciarán Ainsworth
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

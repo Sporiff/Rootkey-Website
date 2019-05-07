@@ -1,0 +1,300 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-gb" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-gb" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Deploying Sophos in a Production environment &mdash; Rootkey 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Music I’ve Made" href="../music/index.html" />
+    <link rel="prev" title="Uncontrolled Devices: Not Even Once" href="2018-05-08-uncontrolled-devices-not-even-once.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Rootkey
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../blog/index.html">My Blog</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Technology</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="2019-04-25-matrix-is-here.html">Matrix is Here</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019-02-05-goodbye-guix.html">Goodbye, Guix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019-02-04-tanuki-tunes-update.html">Tanuki Tunes Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019-01-11-baku-social-news.html">Baku Social News</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-12-22-bakusocial.html">Baku Social</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-25-thermy.html">Thermy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-23-elementary-juno.html">Elementary OS Juno</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-06-apple-drink-cider.html">Apple: Drink the Cider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-02-personal-matters.html">Personal Matters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-01-new-site.html">New Site</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-07-27-deploying-and-controlling-google-chrome-settings-using-microsoft-intune.html">Deploying and Controlling Google Chrome Settings Using Microsoft Intune</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-07-14-microsoft-teams-deployment-headaches.html">Microsoft Teams Deployment Headaches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-06-16-back-to-the-drawing-board.html">Back to the Drawing Board</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-06-02-some-more-windows-work.html">Some More Windows Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-20-getting-on-with-gutenberg.html">Getting on With Gutenberg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-15-knit-and-perl.html">Knit and Perl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-14-pgp-problems-promise-pounding-headaches.html">PGP Problems Promise Pounding Headaches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-13-a-reluctant-return-to-windows.html">A Reluctant Return to Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-10-acclimatising-to-new-tech.html">Acclimitising to New Tech</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-09-another-day-another-intel-fail.html">Another Day Another Intel Fail</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-08-uncontrolled-devices-not-even-once.html">Uncontrolled Devices: Not Even Once</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Deploying Sophos in a Production environment</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#build-deployment">Build Deployment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#protecting-macos">Protecting macOS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clearing-false-positives">Clearing False Positives</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#going-forward">Going Forward</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../music/index.html">Music I’ve Made</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about.html">About Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact.html">Contact Me</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Rootkey</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Technology</a> &raquo;</li>
+        
+      <li>Deploying Sophos in a Production environment</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/tech/2018-05-08-deploying-sophos-in-a-production-environment.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="deploying-sophos-in-a-production-environment">
+<h1>Deploying Sophos in a Production environment<a class="headerlink" href="#deploying-sophos-in-a-production-environment" title="Permalink to this headline">¶</a></h1>
+<p>AntiVirus is a necessary evil. With the world more connected than ever before, every device
+needs protection and tools to allow administrators oversight. Currently, the AV I work with is
+Sophos; cloud-based solution for Windows, Mac, and Linux. When I was working on the frontline,
+I quickly became aware that Sophos did not deploy during imaging as it had initially done, nor
+could it easily be pushed out via SCCM. We spent a long time going around to each freshly imaged
+machine and loading Sophos on, rebooting the machine, and logging tickets to have its policy applied.
+This did not sit right with me, so upon my move to the systems team I decided to have a crack at
+simplifying the process.</p>
+<div class="section" id="build-deployment">
+<h2>Build Deployment<a class="headerlink" href="#build-deployment" title="Permalink to this headline">¶</a></h2>
+<p>The issue, I soon discovered, was not one of packaging or deployment, but rather time. Sophos’ installer
+goes out of date every 30 days, at which point a new executable needs to be downloaded for any new deployments.
+Understandably, this was not a practical solution for our application manager. Given my GNU/Linux background,
+the solution seemed straightforward enough: write a script to handle download and installation as one does with
+the Linux client. However, while this was easily facilitated by PowerShell&amp;#8217;s Invoke-WebRequest cmdlet on
+Windows 10, Windows 7&amp;#8217;s older (v2) Powershell had no such functionality. So we were faced with a dilemma:
+upgrade PowerShell or find a way to script the download and install in an older environment.</p>
+<p>The first option seemed the best to both of us, as more PowerShell features for technicians on a machine could
+be useful in the long run. However, we encountered endless issues trying to deploy the upgrade packages in the
+OSD, so eventually I sat down to work out the script in .NET. The result was a much less clean but still functional
+PowerShell script.</p>
+<p>Both of these scripts can be found on my <a class="reference external" href="https://github.com/Sporiff/Sophos-Install">GitHub</a>.</p>
+</div>
+<div class="section" id="protecting-macos">
+<h2>Protecting macOS<a class="headerlink" href="#protecting-macos" title="Permalink to this headline">¶</a></h2>
+<p>macOS is somewhat more familiar to me than Windows due to its UNIX base, but I was not yet used to working
+with DeployStudio to image macOS devices. I decided that if I could automate deployment for Windows, the
+same must be easy enough on macOS. Certainly, the download command curl is a lot more familiar to me than
+<code class="docutils literal notranslate"><span class="pre">Invoke-WebRequest</span></code>, however the installation of Sophos from a <code class="docutils literal notranslate"><span class="pre">.zip</span></code> required many more steps than simply
+executing a <code class="docutils literal notranslate"><span class="pre">.exe</span></code> like in Windows. More importantly, I came across another issue.</p>
+<p><a class="reference external" href="https://community.sophos.com/kb/en-us/131749">Sophos had reported</a> a change to their installer which
+caused it to conflict with the default permissions set by DeployStudio during imaging. For this reason,
+it was necessary to edit the workflow thus: place the installer script in as a delayed script to run after
+first boot, then place a chmod script at the end of the sequence to run as the last step of the initial
+build process. Lo and behold, a working Sophos install.</p>
+<p>Both of these scripts can be found on my <a class="reference external" href="https://github.com/Sporiff/Sophos-Mac">GitHub</a>.</p>
+</div>
+<div class="section" id="clearing-false-positives">
+<h2>Clearing False Positives<a class="headerlink" href="#clearing-false-positives" title="Permalink to this headline">¶</a></h2>
+<p>This one may be seen by some as a bit of a nasty hack, but unfortunately Sophos - like any software - is
+imperfect. By default, the AV will quarantine or clean up PUAs and viruses from a host machine and
+report the status of this operation in the console, usually with a yellow exclamation triangle for medium
+status or a red exclamation circle for bad status. Usually, manually clearing out these problems is sufficient
+to repair the status, but sometimes the Sophos Health service gets, well, stuck.</p>
+<p>Clearing this one is a little messy, as I say, but it’s quite simple. First, the technician should verify
+that the threat has indeed been cleared. Then, tamper protection should be disabled on the affected machine.
+This is to allow the technician to stop the Sophos Health service, rename the stuck database, and re-enable
+the service. Tamper protection should then be enabled and the machine reset. Voilà! A nice green tick in Sophos Central.</p>
+<p>This script can be found on my <a class="reference external" href="https://github.com/Sporiff/Sophos-Health-Fix">GitHub</a>.</p>
+</div>
+<div class="section" id="going-forward">
+<h2>Going Forward<a class="headerlink" href="#going-forward" title="Permalink to this headline">¶</a></h2>
+<p>Working with Sophos is something of an adventure. Due to the fact that it is cloud-based, it is always evolving.
+Sometimes, the changes are welcome - like a long-awaited fix for a problem - but other times they
+can present new challenges to which you will quickly need to adapt your environment. With a little scripting,
+Sophos management for endpoints becomes a lot easier.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../music/index.html" class="btn btn-neutral float-right" title="Music I’ve Made" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="2018-05-08-uncontrolled-devices-not-even-once.html" class="btn btn-neutral float-left" title="Uncontrolled Devices: Not Even Once" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Ciarán Ainsworth
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

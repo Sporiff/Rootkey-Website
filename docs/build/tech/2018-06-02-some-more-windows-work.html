@@ -1,0 +1,357 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-gb" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-gb" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Some More Windows Work &mdash; Rootkey 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Getting on With Gutenberg" href="2018-05-20-getting-on-with-gutenberg.html" />
+    <link rel="prev" title="Back to the Drawing Board" href="2018-06-16-back-to-the-drawing-board.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Rootkey
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../blog/index.html">My Blog</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Technology</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="2019-04-25-matrix-is-here.html">Matrix is Here</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019-02-05-goodbye-guix.html">Goodbye, Guix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019-02-04-tanuki-tunes-update.html">Tanuki Tunes Update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019-01-11-baku-social-news.html">Baku Social News</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-12-22-bakusocial.html">Baku Social</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-25-thermy.html">Thermy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-23-elementary-juno.html">Elementary OS Juno</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-06-apple-drink-cider.html">Apple: Drink the Cider</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-02-personal-matters.html">Personal Matters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-10-01-new-site.html">New Site</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-07-27-deploying-and-controlling-google-chrome-settings-using-microsoft-intune.html">Deploying and Controlling Google Chrome Settings Using Microsoft Intune</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-07-14-microsoft-teams-deployment-headaches.html">Microsoft Teams Deployment Headaches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-06-16-back-to-the-drawing-board.html">Back to the Drawing Board</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Some More Windows Work</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#it-s-all-about-the-cloud">It’s All About the Cloud</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#osd-teething-issues">OSD Teething Issues</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ensuring-authority">Ensuring Authority</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#azure-ad-is-a-bastard">Azure AD is a Bastard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bitlocker">Bitlocker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#intune-management">InTune Management</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-20-getting-on-with-gutenberg.html">Getting on With Gutenberg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-15-knit-and-perl.html">Knit and Perl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-14-pgp-problems-promise-pounding-headaches.html">PGP Problems Promise Pounding Headaches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-13-a-reluctant-return-to-windows.html">A Reluctant Return to Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-10-acclimatising-to-new-tech.html">Acclimitising to New Tech</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-09-another-day-another-intel-fail.html">Another Day Another Intel Fail</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-08-uncontrolled-devices-not-even-once.html">Uncontrolled Devices: Not Even Once</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018-05-08-deploying-sophos-in-a-production-environment.html">Deploying Sophos in a Production environment</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../music/index.html">Music I’ve Made</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about.html">About Me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contact.html">Contact Me</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Rootkey</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Technology</a> &raquo;</li>
+        
+      <li>Some More Windows Work</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/tech/2018-06-02-some-more-windows-work.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="some-more-windows-work">
+<h1>Some More Windows Work<a class="headerlink" href="#some-more-windows-work" title="Permalink to this headline">¶</a></h1>
+<p>It’s been a little while since I last posted here. I’ve been having a very busy and productive time at
+work. Let’s jump in to some of the stuff I’ve learned over the past couple of weeks. Come on! It’ll be fun!</p>
+<p>Or not. Who knows? More importantly, who cares what you think? It’s my blog and I WILL cry when I want to.</p>
+<div class="section" id="it-s-all-about-the-cloud">
+<h2>It’s All About the Cloud<a class="headerlink" href="#it-s-all-about-the-cloud" title="Permalink to this headline">¶</a></h2>
+<p>As we all know, Cloud services are the way absolutely everything on God’s green bloody earth are going
+these days. Microsoft device management is no different. So, of course, with our upcoming move to Windows
+10 we need to devise a way to get all of our mobile devices managed by InTune rather than SCCM and Azure
+Active Directory rather than on-prem AD just so we can ship them out into the big wide world and still keep
+them managed. This sounds like it should be easy, but when you’re working at the scale my job is working at
+the prospect of joining devices in bulk to Azure cloud services is daunting. Microsoft’s official recommendation
+seems to be going to each device in turn and joining them to AAD/InTune using the built-in wizard, but of course
+we don’t have the time or staff to do that. Let’s script it out instead!</p>
+</div>
+<div class="section" id="osd-teething-issues">
+<h2>OSD Teething Issues<a class="headerlink" href="#osd-teething-issues" title="Permalink to this headline">¶</a></h2>
+<p>So you’ve built your Windows 10 image and got everything set up just how you like it. You insert it into your
+task sequence, and start applying all your drivers and software. Unfortunately, you’re trying to use Office 365
+Pro Plus with shared user activation and have packaged it as an application as per
+<a class="reference external" href="https://docs.microsoft.com/en-us/deployoffice/deploy-office-365-proplus-with-system-center-configuration-manager">Microsoft’s instructions</a>.
+Well, let me tell you now sonny Jim, that ain’t gonna work. While the deployment of this application will actually be successful,
+you are going to see your builds failing with error code 16389 A LOT when trying to run this in the OSD. What is error
+code 16389? Fuck knows. A lot of Googling brought up nothing useful.</p>
+<p>Now you’re running around like a headless chicken changing every single deployment rule you can think of. When you try
+installing on a live system, it returns code 0 so clearly it’s working. Try it again in the OSD, 16389. Utter madness.
+I spent a good day and a half trying to work out what the hell could be wrong. The detection method was right, the
+application worked, the content was accessible and upon completing the build the software was present, but the error
+code caused the sequence to complete with some problems</p>
+<p>So how do we get around this? We’ve used the wizard and packaged everything up nice exactly how M$ recommends but it’s still
+not working. Well then. Clearly, Microsoft doesn’t know what they’re talking about. Let’s instead build the O365 PP installer
+as a traditional package with a script installer. Does it work now? You’re goddamn right it does. No more software failures!</p>
+</div>
+<div class="section" id="ensuring-authority">
+<h2>Ensuring Authority<a class="headerlink" href="#ensuring-authority" title="Permalink to this headline">¶</a></h2>
+<p>So one thing you’re going to come across that can stump you a little is setting up InTune as the authority for software
+management on your mobile device. See, when you build a machine using SCCM you load a config manager client on to the machine
+which deals with setting up software and managing communication to the CCM server. However, the presence of this client will
+cause InTune to reject the machine as it doesn’t have the proper authority. Since we’re not going down the path of co-management
+(InTune only for mobile devices), we need to get that off of there.</p>
+<p>Now, the trick  with this is remembering that getting rid of the CCM client will ALWAYS cause a task sequence failure. If you
+insert a script as the last step with the command C:Windowsccmsetupccmsetup.exe /uninstall you’re going to get a whole
+load of error messages in your trace log and ultimately the build will fail. This is going to cause oddities. We need a
+smarter way around this. One way would be to set up a Powershell script in the build which sets a scheduled task to run
+the command after the machine’s first boot, but surprisingly there’s a more elegant way to do it.</p>
+<p>If you add a Task Sequence variable during the OS setup with the variable SMSTSPostAction and write the above script in as
+a command, the machine will store this command to run it upon successful completion of the task sequence. After a bit of
+testing and tweaking, I started to get successful builds with no CCM client on them at all. All the benefits of the OSD with
+none of the residuals! Hoorah!</p>
+</div>
+<div class="section" id="azure-ad-is-a-bastard">
+<h2>Azure AD is a Bastard<a class="headerlink" href="#azure-ad-is-a-bastard" title="Permalink to this headline">¶</a></h2>
+<p>Okay, so we know that these machines need to join Azure AD and not on-prem AD. This seems like it should be easy enough,
+but unfortunately Microsoft are not keen on bulk joining devices like this. Eventually, it looks like they caved under the
+pressure from (justifiably) annoyed enterprise customers and created a WICD tool to enable bulk enrollment using a ppkg.</p>
+<p>We used a ppkg to set some of our customization in the build, so we were fairly confident this would work perfectly.
+Using DISM, we applied both to the image and watched eagerly for our asset to appear in AAD.</p>
+<p>It never did.</p>
+<p>We saw a device joining, for sure, but it wasn’t anything we recognised. “DESKTOP-£&amp;$*£&amp;*” something or other.
+Not anything like our standard naming convention. But it was being joined by the bulk join account. Hmm.</p>
+<p>So I did a bit of digging around in the registry and found the issue. The machine’s ORIGINAL name is DESKTOP-whatever. This
+value gets changed in the TS but only once you boot in to the live image. Of course, using DISM we’re working with an
+offline image, so it’s joining the machine using this old name and then going online. Well that’s not good enough. We
+need to find a way to apply the package using an online image. To cut a long story short, here’s how I did it.</p>
+<p>First, we add a step in the TS to map a network drive. We point this to the UNC of the folder on our config manager
+server where the PPKG is stored and we use a login with the relevant permissions to access it so we can be sure it’s
+picking it up. Then, we write the Powershell script to actually install the ppkg:</p>
+<div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="nb">Install-ProvisioningPackage</span> <span class="n">-Path</span> <span class="s2">&quot;YourPackage.ppkg&quot;</span> <span class="n">-ForceInstall</span> <span class="n">-QuietInstall</span><span class="p">&lt;/</span><span class="n">code</span><span class="p">&gt;&lt;/</span><span class="n">pre</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Now just package up that script, add a step to run it after mapping the drive. Badda-bing, badda-boom, the
+machine now joins AAD with the name you assigned in the TS. Hooray!</p>
+</div>
+<div class="section" id="bitlocker">
+<h2>Bitlocker<a class="headerlink" href="#bitlocker" title="Permalink to this headline">¶</a></h2>
+<p>The next step is to ensure that your machine Bitlockers properly and passes the key back to AAD so that your
+organisation can recover it if necessary. This is easy enough when you have a device like a Surface which supports
+<a class="reference external" href="https://blogs.technet.microsoft.com/home_is_where_i_lay_my_head/2016/03/14/automatic-bitlocker-on-windows-10-during-azure-ad-join/">InstantGo</a>,
+but I’m not lucky enough to just be working with these high-end devices. Some of our devices are kind of shit, yo.
+So we need a universal solution. Powershell to the rescue once more.</p>
+<p>The trick here is the order in which you do things. This Bitlocker step should obviously be placed after the Azure AD
+Join step we made earlier. The machine will then need to provision a key, back up the key to Azure AD and then encrypt
+the drive with that key. The script looks like this:</p>
+<div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="c">#Provision the key first and force it to encrypt the drive with the provisioned key</span>
+
+<span class="nb">Add-BitLockerKeyProtector</span> <span class="n">-MountPoint</span> <span class="s2">&quot;C:&quot;</span> <span class="n">-RecoveryPasswordProtector</span>
+
+<span class="c">#Create the variable $BLV with the value of the bitlocker&#39;d C:\ drive</span>
+
+<span class="nv">$BLV</span> <span class="p">=</span> <span class="nb">Get-BitLockerVolume</span> <span class="n">-MountPoint</span> <span class="s2">&quot;C:&quot;</span>
+
+<span class="c">#Back the key up to Azure for the drive that needs to be encrypted, assigning the drive&#39;s ID</span>
+
+<span class="n">BackupToAAD-BitLockerKeyProtector</span> <span class="n">-MountPoint</span> <span class="s2">&quot;C:&quot;</span> <span class="n">-KeyProtectorId</span> <span class="nv">$BLV</span><span class="p">.</span><span class="n">KeyProtector</span><span class="p">[</span><span class="n">0</span><span class="p">].</span><span class="n">KeyProtectorId</span>
+
+<span class="c">#Enable Bitlocker on the system drive (without a login pin)</span>
+
+<span class="nb">Enable-BitLocker</span> <span class="n">-MountPoint</span> <span class="s2">&quot;C:&quot;</span> <span class="n">-EncryptionMethod</span> <span class="n">XtsAes256</span> <span class="n">-UsedSpaceOnly</span> <span class="n">-TpmProtector</span> <span class="p">&lt;/</span><span class="n">code</span><span class="p">&gt;&lt;/</span><span class="n">pre</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Package it, add the step, and move on with your life. The machine will now Bitlocker the used space and back the
+key up to the item in Azure AD.</p>
+</div>
+<div class="section" id="intune-management">
+<h2>InTune Management<a class="headerlink" href="#intune-management" title="Permalink to this headline">¶</a></h2>
+<p>This last bit is the bit I still haven’t got working. As I mentioned before, we’re trying to give InTune full
+authority over the devices rather than SCCM, so what we’ve looked at doing is setting up a group within AAD which
+have device adding rights. As of yet, the devices are not pulling through to InTune despite being owned by the users in
+that group. From what I can see, we may not be able to get it working that way. However, my suspicion is that if we use
+CCM’s co-management setup during the build but then remove the CCM client as per the steps above, it will enroll the
+device and remove CCM’s authority. More testing is required, but hopefully we’ll have got it working next week.</p>
+<p>Phew! It’s been a bit of a slog, but a very productive one. Hope someone finds this somewhat useful.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="2018-05-20-getting-on-with-gutenberg.html" class="btn btn-neutral float-right" title="Getting on With Gutenberg" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="2018-06-16-back-to-the-drawing-board.html" class="btn btn-neutral float-left" title="Back to the Drawing Board" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Ciarán Ainsworth
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
