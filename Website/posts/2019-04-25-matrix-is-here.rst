@@ -8,7 +8,7 @@ Matrix is Here
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2019-04-25-matrix-is-here
+   :redirect: tech/2019-04-25-matrix-is-here
 
 I've Talked About it Before...
 ------------------------------
