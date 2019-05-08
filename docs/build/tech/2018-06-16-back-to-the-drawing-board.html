@@ -227,56 +227,71 @@ regkey to turn off and I started writing the new script.</p>
 to call on the PowerShell script from a local directory in bypass mode. Then, as the last step, we needed to map a
 drive to point to the script’s location and use another PowerShell script to copy the CCM removal script to the
 <code class="docutils literal notranslate"><span class="pre">C:\Windows\Temp</span></code> directory to be executed post OSD completion. The script itself goes like this:</p>
-<p>..code-block:: powershell</p>
-<blockquote>
-<div><p>Start-Process -FilePath ‘C:Windowsccmsetupccmsetup.exe’ -Args “/uninstall” -Wait -NoNewWindow</p>
-<p># wait for exit</p>
-<p>$CCMProcess = Get-Process ccmsetup -ErrorAction SilentlyContinue
-try{</p>
-<blockquote>
-<div><p>$CCMProcess.WaitForExit()</p>
-</div></blockquote>
-<p>}catch{
-}</p>
-<p># Stop Services</p>
-<p>Stop-Service -Name ccmsetup -Force -ErrorAction SilentlyContinue
+<div class="highlight-bat notranslate"><div class="highlight"><pre><span></span>Start-Process -FilePath &#39;C:\Windows\ccmsetup\ccmsetup.exe&#39; -Args <span class="s2">&quot;/uninstall&quot;</span> -Wait -NoNewWindow
+
+# wait for exit
+
+$CCMProcess = Get-Process ccmsetup -ErrorAction SilentlyContinue
+try{
+
+   $CCMProcess.WaitForExit()
+
+}catch{
+}
+
+# Stop Services
+
+Stop-Service -Name ccmsetup -Force -ErrorAction SilentlyContinue
 Stop-Service -Name CcmExec -Force -ErrorAction SilentlyContinue
 Stop-Service -Name smstsmgr -Force -ErrorAction SilentlyContinue
-Stop-Service -Name CmRcService -Force -ErrorAction SilentlyContinue</p>
-<p># wait for exit</p>
-<p>$CCMProcess = Get-Process ccmexec -ErrorAction SilentlyContinue
-try{</p>
-<blockquote>
-<div><p>$CCMProcess.WaitForExit()</p>
-</div></blockquote>
-<p>}catch{
-}</p>
-<p># Remove WMI Namespaces</p>
-<p>Get-WmiObject -Query “SELECT * FROM __Namespace WHERE Name=’ccm’” -Namespace root | Remove-WmiObject
-Get-WmiObject -Query “SELECT * FROM __Namespace WHERE Name=’sms’” -Namespace rootcimv2 | Remove-WmiObject</p>
-<p># Remove Services from Registry</p>
-<p>$MyPath = “HKLM:SYSTEMCurrentControlSetServices”
-Remove-Item -Path $MyPathCCMSetup -Force -Recurse -ErrorAction SilentlyContinue
-Remove-Item -Path $MyPathCcmExec -Force -Recurse -ErrorAction SilentlyContinue
-Remove-Item -Path $MyPathsmstsmgr -Force -Recurse -ErrorAction SilentlyContinue
-Remove-Item -Path $MyPathCmRcService -Force -Recurse -ErrorAction SilentlyContinue</p>
-<p># Remove SCCM Client from Registry</p>
-<p>$MyPath = “HKLM:SOFTWAREMicrosoft”
-Remove-Item -Path $MyPathCCM -Force -Recurse -ErrorAction SilentlyContinue
-Remove-Item -Path $MyPathCCMSetup -Force -Recurse -ErrorAction SilentlyContinue
-Remove-Item -Path $MyPathSMS -Force -Recurse -ErrorAction SilentlyContinue</p>
-<p># Remove Folders and Files</p>
-<p>$MyPath = $env:WinDir
-Remove-Item -Path $MyPathCCM -Force -Recurse -ErrorAction SilentlyContinue
-Remove-Item -Path $MyPathccmsetup -Force -Recurse -ErrorAction SilentlyContinue
-Remove-Item -Path $MyPathccmcache -Force -Recurse -ErrorAction SilentlyContinue
-Remove-Item -Path $MyPathSMSCFG.ini -Force -ErrorAction SilentlyContinue
-Remove-Item -Path $MyPathSMS*.mif -Force -ErrorAction SilentlyContinue
-Remove-Item -Path $MyPathSMS*.mif -Force -ErrorAction SilentlyContinue</p>
-<p>#Remove authority from CCM</p>
-<p>$MyPath = “HKLM:SOFTWAREMicrosoft”
-Remove-Item -Path $MyPathDeviceManageabilityCSP -Force -Recurse -ErrorAction SilentlyContinue&lt;/code&gt;&lt;/pre&gt;</p>
-</div></blockquote>
+Stop-Service -Name CmRcService -Force -ErrorAction SilentlyContinue
+
+# wait for exit
+
+$CCMProcess = Get-Process ccmexec -ErrorAction SilentlyContinue
+try{
+
+   $CCMProcess.WaitForExit()
+
+}catch{
+}
+
+# Remove WMI Namespaces
+
+Get-WmiObject -Query <span class="s2">&quot;SELECT * FROM __Namespace WHERE Name=&#39;ccm&#39;&quot;</span> -Namespace root <span class="p">|</span> Remove-WmiObject
+Get-WmiObject -Query <span class="s2">&quot;SELECT * FROM __Namespace WHERE Name=&#39;sms&#39;&quot;</span> -Namespace root\cimv2 <span class="p">|</span> Remove-WmiObject
+
+# Remove Services from Registry
+
+$MyPath = “HKLM:\SYSTEM\CurrentControlSet\Services”
+Remove-Item -Path $MyPath\CCMSetup -Force -Recurse -ErrorAction SilentlyContinue
+Remove-Item -Path $MyPath\CcmExec -Force -Recurse -ErrorAction SilentlyContinue
+Remove-Item -Path $MyPath\smstsmgr -Force -Recurse -ErrorAction SilentlyContinue
+Remove-Item -Path $MyPath\CmRcService -Force -Recurse -ErrorAction SilentlyContinue
+
+# Remove SCCM Client from Registry
+
+$MyPath = “HKLM:\SOFTWARE\Microsoft”
+Remove-Item -Path $MyPath\CCM -Force -Recurse -ErrorAction SilentlyContinue
+Remove-Item -Path $MyPath\CCMSetup -Force -Recurse -ErrorAction SilentlyContinue
+Remove-Item -Path $MyPath\SMS -Force -Recurse -ErrorAction SilentlyContinue
+
+# Remove Folders and Files
+
+$MyPath = $env:WinDir
+Remove-Item -Path $MyPath\CCM -Force -Recurse -ErrorAction SilentlyContinue
+Remove-Item -Path $MyPath\ccmsetup -Force -Recurse -ErrorAction SilentlyContinue
+Remove-Item -Path $MyPath\ccmcache -Force -Recurse -ErrorAction SilentlyContinue
+Remove-Item -Path $MyPath\SMSCFG.ini -Force -ErrorAction SilentlyContinue
+Remove-Item -Path $MyPath\SMS*.mif -Force -ErrorAction SilentlyContinue
+Remove-Item -Path $MyPath\SMS*.mif -Force -ErrorAction SilentlyContinue
+
+#Remove authority from CCM
+
+$MyPath = “HKLM:\SOFTWARE\Microsoft”
+Remove-Item -Path $MyPath\DeviceManageabilityCSP -Force -Recurse -ErrorAction SilentlyContinue<span class="p">&lt;</span>/code<span class="p">&gt;</span>&lt;/pre&gt;
+</pre></div>
+</div>
 <p>A little lengthy compared to the last one, but lo and behold Intune picked up the new machine and started applying policies. Huzzah!</p>
 </div>
 </div>

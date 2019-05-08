@@ -51,7 +51,7 @@ to call on the PowerShell script from a local directory in bypass mode. Then, as
 drive to point to the script's location and use another PowerShell script to copy the CCM removal script to the 
 ``C:\Windows\Temp`` directory to be executed post OSD completion. The script itself goes like this:
 
-..code-block:: powershell
+.. code-block:: bat
 
    Start-Process -FilePath 'C:\Windows\ccmsetup\ccmsetup.exe' -Args "/uninstall" -Wait -NoNewWindow
    
