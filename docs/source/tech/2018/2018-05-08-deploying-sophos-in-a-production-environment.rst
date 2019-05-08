@@ -18,8 +18,8 @@ The issue, I soon discovered, was not one of packaging or deployment, but rather
 goes out of date every 30 days, at which point a new executable needs to be downloaded for any new deployments. 
 Understandably, this was not a practical solution for our application manager. Given my GNU/Linux background, 
 the solution seemed straightforward enough: write a script to handle download and installation as one does with 
-the Linux client. However, while this was easily facilitated by PowerShell&#8217;s Invoke-WebRequest cmdlet on 
-Windows 10, Windows 7&#8217;s older (v2) Powershell had no such functionality. So we were faced with a dilemma: 
+the Linux client. However, while this was easily facilitated by PowerShell's Invoke-WebRequest cmdlet on 
+Windows 10, Windows 7's older (v2) Powershell had no such functionality. So we were faced with a dilemma: 
 upgrade PowerShell or find a way to script the download and install in an older environment.
 
 The first option seemed the best to both of us, as more PowerShell features for technicians on a machine could 
