@@ -51,7 +51,7 @@ I needed to address in my daily life:
 1. Things on computers are unnecessarily slow. Transitions between workspaces on macOS are frustratingly sluggish. 
 Mouse navigation is pointlessly inaccurate and tedious. I need to get rid of the mouse and any annoying transitions. 
 OK. But when I started looking around for ways to disable these obnoxiously slow animations, my results were threadbare 
-and the result was just a way to "reduce motion sickness" [#f1]_ and so the speed issue remains.
+and the result was just a way to "reduce motion sickness" [#]_ and so the speed issue remains.
 
 2. Keyboard control on both macOS and Windows is pitiful. So much focus is put on the mouse that navigating the OS without it, 
 while possible, is like fighting a honey badger in a pool of molasses. I need to have more control with the keyboard because I 
@@ -75,7 +75,7 @@ setup will do. Given the opportunity to sit down and simply *look* at what I was
 a setup that allows me to spend less time on the computer simply because I have got everything done much faster 
 than I would have done. Can other people use my computer? Sure, but they would have to work how I work for it to make sense.
 
-Computers are, at this point in time, being produced for all people to use [#f2]_ and as such are tailored to nobody. 
+Computers are, at this point in time, being produced for all people to use [#]_ and as such are tailored to nobody. 
 Worse yet, systems like Windows and macOS really don't give you the tools you need to make your experience better. 
 It's a bit like walking into a hardware store looking for a screwdriver and all they have is hammers. Sure, you can 
 get the work done, but it will be inefficient and ugly. But imagine if you were given a toolbox from which you could 
@@ -94,7 +94,7 @@ it's what makes the most sense to you, or is it because it's simply what has bee
 about what frustrates you while you use it and how you might address those problems. You may be surprised at what 
 you come up with.
 
-.. rubrick:: Footnoes
+.. rubric:: Footnotes
 
-[#f1]: By the by, Apple, you have utterly failed at design if your system is known to cause motion sickness by default.
-[#f2]: Although I'm sure many people with disabilities would disagree
+.. [#]: By the by, Apple, you have utterly failed at design if your system is known to cause motion sickness by default.
+.. [#]: Although I'm sure many people with disabilities would disagree

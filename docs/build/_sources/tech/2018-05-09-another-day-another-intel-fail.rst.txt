@@ -21,7 +21,7 @@ Bad Documentation is Bad
 If an individual reads a set of instructions and manages stumble along the way, that's understandable and 
 usually rectifiable. However, if everybody reading the instructions fails in the same way, the instructions 
 are bad. End of story. This cannot be passed off as being developer error if the documentation was misleading or 
-unclear. It can be presumed that Microsoft, Google, Apple, and companies/communities working on *BSD and Linux 
+unclear. It can be presumed that Microsoft, Google, Apple, and companies/communities working on \*BSD and Linux 
 are pretty smart cookies indeed. I feel it is unlikely that all of them could have failed in the same way without 
 being misled.
 

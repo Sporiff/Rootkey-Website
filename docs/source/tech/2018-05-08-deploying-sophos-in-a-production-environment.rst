@@ -44,7 +44,7 @@ it was necessary to edit the workflow thus: place the installer script in as a d
 first boot, then place a chmod script at the end of the sequence to run as the last step of the initial 
 build process. Lo and behold, a working Sophos install.
 
-Both of these scripts can be found on my `GitHub <https://github.com/Sporiff/Sophos-Mac>`_.
+Both of these scripts can be found in this `GitHub repo <https://github.com/Sporiff/Sophos-Mac>`_.
 
 Clearing False Positives
 ------------------------

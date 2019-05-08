@@ -69,7 +69,7 @@ not stuck in the past in the same way as email is. GPG email is an incredibly ol
 desktop mail programs (which themselves have questionable security when compared to their web counterparts), and is one 
 that really needs to be addressed. Email is more important today than perhaps ever before: it's your digital home address, 
 your online home. There needs to be a conversation about increasing security without trying to use overly complex systems 
-such as PGP. And no, `making a Tutanota-styled encrypted message for Gmail is not a solution <https://www.theregister.co.uk/2018/04/16/google_gmail_security/`_.
+such as PGP. And no, `making a Tutanota-styled encrypted message for Gmail is not a solution <https://www.theregister.co.uk/2018/04/16/google_gmail_security/>`_.
 
 Until the least technically competent among us can use encryption fluently and without frustration, there will be 
 no security at all. Signal and iMessage have both managed to address this problem expertly, providing strong encryption 

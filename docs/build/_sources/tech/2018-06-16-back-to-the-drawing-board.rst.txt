@@ -102,7 +102,7 @@ drive to point to the script's location and use another PowerShell script to cop
     Remove-Item -Path $MyPath\SMSCFG.ini -Force -ErrorAction SilentlyContinue
     Remove-Item -Path $MyPath\SMS*.mif -Force -ErrorAction SilentlyContinue	
     Remove-Item -Path $MyPath\SMS*.mif -Force -ErrorAction SilentlyContinue	
-
+    
     #Remove authority from CCM
     $MyPath = “HKLM:\SOFTWARE\Microsoft”
     Remove-Item -Path $MyPath\DeviceManageabilityCSP -Force -Recurse -ErrorAction SilentlyContinue</code></pre>

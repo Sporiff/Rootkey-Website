@@ -77,7 +77,7 @@ Notifications have also seen a few improvements (particularly in sound design), 
 thus far has been the ability to alter the type of notification per application. This is really handy for when 
 you have apps which demand your attention (Mail) and ones which really do not need to be making noise when an event 
 happens (Music). It's a little thing, but I've found Juno to be full of little things that make a difference. They 
-have, as they say, `chosen all the door handles in the house <https://eu.usatoday.com/story/life/2015/07/12/designer-real-estate-home-decoration/30047291/`_.
+have, as they say, `chosen all the door handles in the house <https://eu.usatoday.com/story/life/2015/07/12/designer-real-estate-home-decoration/30047291/>`_.
 
 The Elementary team has also won my heart with their inclusion of dark themes in many system apps, including 
 the newly introduced Code (previously Scratch) in which I am writing this post now. It's a decent IDE. I would 
@@ -111,7 +111,7 @@ make this feel like a really comfy app to sit in and hack on. I know Linux hacke
 Code is nowhere near as extensible as the venerable Emacs or Vim, but I still feel like giving praise where it's due here.
 
 A personal experience I just wanted to include here: I downloaded a `Hacker News <https://news.ycombinator.com>`_ reader 
-made for Elementary called `HackUp <https://github.com/mdh34/hackup`_. I was pretty impressed, but disappointed in the 
+made for Elementary called `HackUp <https://github.com/mdh34/hackup>`_. I was pretty impressed, but disappointed in the 
 lack of a dark theme. I left a feature request on the project's GitHub and by the next day the dark theme was implemented. 
 Well worth the $3 any day.
 
