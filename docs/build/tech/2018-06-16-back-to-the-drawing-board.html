@@ -230,51 +230,51 @@ drive to point to the script’s location and use another PowerShell script to c
 <p>..code-block:: powershell</p>
 <blockquote>
 <div><p>Start-Process -FilePath ‘C:Windowsccmsetupccmsetup.exe’ -Args “/uninstall” -Wait -NoNewWindow</p>
-<p># wait for exit
-$CCMProcess = Get-Process ccmsetup -ErrorAction SilentlyContinue
+<p># wait for exit</p>
+<p>$CCMProcess = Get-Process ccmsetup -ErrorAction SilentlyContinue
 try{</p>
 <blockquote>
 <div><p>$CCMProcess.WaitForExit()</p>
 </div></blockquote>
-<p>}catch{</p>
-<p>}</p>
-<p># Stop Services
-Stop-Service -Name ccmsetup -Force -ErrorAction SilentlyContinue
+<p>}catch{
+}</p>
+<p># Stop Services</p>
+<p>Stop-Service -Name ccmsetup -Force -ErrorAction SilentlyContinue
 Stop-Service -Name CcmExec -Force -ErrorAction SilentlyContinue
 Stop-Service -Name smstsmgr -Force -ErrorAction SilentlyContinue
 Stop-Service -Name CmRcService -Force -ErrorAction SilentlyContinue</p>
-<p># wait for exit
-$CCMProcess = Get-Process ccmexec -ErrorAction SilentlyContinue
+<p># wait for exit</p>
+<p>$CCMProcess = Get-Process ccmexec -ErrorAction SilentlyContinue
 try{</p>
 <blockquote>
 <div><p>$CCMProcess.WaitForExit()</p>
 </div></blockquote>
-<p>}catch{</p>
-<p>}</p>
-<p># Remove WMI Namespaces
-Get-WmiObject -Query “SELECT * FROM __Namespace WHERE Name=’ccm’” -Namespace root | Remove-WmiObject
+<p>}catch{
+}</p>
+<p># Remove WMI Namespaces</p>
+<p>Get-WmiObject -Query “SELECT * FROM __Namespace WHERE Name=’ccm’” -Namespace root | Remove-WmiObject
 Get-WmiObject -Query “SELECT * FROM __Namespace WHERE Name=’sms’” -Namespace rootcimv2 | Remove-WmiObject</p>
-<p># Remove Services from Registry
-$MyPath = “HKLM:SYSTEMCurrentControlSetServices”
+<p># Remove Services from Registry</p>
+<p>$MyPath = “HKLM:SYSTEMCurrentControlSetServices”
 Remove-Item -Path $MyPathCCMSetup -Force -Recurse -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPathCcmExec -Force -Recurse -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPathsmstsmgr -Force -Recurse -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPathCmRcService -Force -Recurse -ErrorAction SilentlyContinue</p>
-<p># Remove SCCM Client from Registry
-$MyPath = “HKLM:SOFTWAREMicrosoft”
+<p># Remove SCCM Client from Registry</p>
+<p>$MyPath = “HKLM:SOFTWAREMicrosoft”
 Remove-Item -Path $MyPathCCM -Force -Recurse -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPathCCMSetup -Force -Recurse -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPathSMS -Force -Recurse -ErrorAction SilentlyContinue</p>
-<p># Remove Folders and Files
-$MyPath = $env:WinDir
+<p># Remove Folders and Files</p>
+<p>$MyPath = $env:WinDir
 Remove-Item -Path $MyPathCCM -Force -Recurse -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPathccmsetup -Force -Recurse -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPathccmcache -Force -Recurse -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPathSMSCFG.ini -Force -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPathSMS*.mif -Force -ErrorAction SilentlyContinue
 Remove-Item -Path $MyPathSMS*.mif -Force -ErrorAction SilentlyContinue</p>
-<p>#Remove authority from CCM
-$MyPath = “HKLM:SOFTWAREMicrosoft”
+<p>#Remove authority from CCM</p>
+<p>$MyPath = “HKLM:SOFTWAREMicrosoft”
 Remove-Item -Path $MyPathDeviceManageabilityCSP -Force -Recurse -ErrorAction SilentlyContinue&lt;/code&gt;&lt;/pre&gt;</p>
 </div></blockquote>
 <p>A little lengthy compared to the last one, but lo and behold Intune picked up the new machine and started applying policies. Huzzah!</p>
