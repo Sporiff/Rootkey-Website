@@ -242,4 +242,4 @@ def copy_legacy_redirects(app, docname):
 def setup(app):
     app.connect('build-finished', copy_legacy_redirects)
 
-html_extra_path = ['resume.html']
+html_extra_path = ['resume.html', 'keybase.txt']
