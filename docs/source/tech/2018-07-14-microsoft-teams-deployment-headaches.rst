@@ -62,7 +62,7 @@ off `Procmon <https://docs.microsoft.com/en-us/sysinternals/downloads/procmon>`_
 So it looks like when you enable/disable the autostart from within the Teams desktop application it writes and 
 verifies a bunch of regkeys. The one we're interested in is this one:
 
-.. code-block:: powershell
+.. code-block:: bat
 
   <pre class="wp-block-code"><code>HKCU\Software\Microsoft\Windows\CurrentVersion\Run
   com.squirrel.Teams.Teams
