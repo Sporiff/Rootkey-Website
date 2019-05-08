@@ -8,7 +8,7 @@ Some More Windows Work
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-06-02-some-more-windows-work
+   :redirect: tech/2018-06-02-some-more-windows-work
 
 It's been a little while since I last posted here. I've been having a very busy and productive time at 
 work. Let's jump in to some of the stuff I've learned over the past couple of weeks. Come on! It'll be fun!

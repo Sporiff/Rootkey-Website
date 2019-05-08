@@ -8,7 +8,7 @@ Elementary OS Juno
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-10-23-elementary-juno
+   :redirect: tech/2018-10-23-elementary-juno
 
 .. note::
 

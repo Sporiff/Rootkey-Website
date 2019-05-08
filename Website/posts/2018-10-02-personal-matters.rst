@@ -8,7 +8,7 @@ Personal Matters
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-10-02-personal-matters
+   :redirect: tech/2018-10-02-personal-matters
 
 This post is more of a rant than anything technical. In fact, it's more of a moan born of recent frustrations. 
 Nevertheless, this is my website. Where better to moan?

@@ -8,7 +8,7 @@ A Reluctant Return to Windows
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-05-13-a-reluctant-return-to-windows
+   :redirect: tech/2018-05-13-a-reluctant-return-to-windows
 
 I have lived a Windows-free life for a good long while now, using the OS only at work and leaving my 
 home setup free of Microsoft’s influence. However, with the upcoming shift to Windows 10 in my place of 

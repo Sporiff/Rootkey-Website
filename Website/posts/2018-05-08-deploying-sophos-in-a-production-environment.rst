@@ -8,7 +8,7 @@ Deploying Sophos in a Production environment
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-05-08-deploying-sophos-in-a-production-environment
+   :redirect: tech/2018-05-08-deploying-sophos-in-a-production-environment
 
 AntiVirus is a necessary evil. With the world more connected than ever before, every device 
 needs protection and tools to allow administrators oversight. Currently, the AV I work with is 

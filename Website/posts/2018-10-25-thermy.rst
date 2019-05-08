@@ -8,7 +8,7 @@ Thermy
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-10-25-thermy
+   :redirect: tech/2018-10-25-thermy
 
 So I've been saying for a number of years that I'd really like to get into app development, 
 but have never really had a project to work on. This is usually my struggle. I am the sort 

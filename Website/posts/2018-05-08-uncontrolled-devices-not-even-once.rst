@@ -8,7 +8,7 @@ Uncontrolled Devices: Not Even Once
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-05-08-uncontrolled-devices-not-even-once
+   :redirect: tech/2018-05-08-uncontrolled-devices-not-even-once
 
 I’m a systems administrator by trade (or as I often find myself writing, a “systemd administrator” since 
 `that cancerous piece of bloatware <http://without-systemd.org/wiki/index.php/Main_Page>`_ consumes most 

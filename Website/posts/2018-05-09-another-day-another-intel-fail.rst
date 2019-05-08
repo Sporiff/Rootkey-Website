@@ -8,7 +8,7 @@ Another Day Another Intel Fail
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-05-09-another-day-another-intel-fail
+   :redirect: tech/2018-05-09-another-day-another-intel-fail
 
 A few years ago, I'd have been shocked to see the sort of vulnerabilities I see announced these days 
 once a year, let alone once a month. But the rise of cybersecurity as a respected industry has led to the 

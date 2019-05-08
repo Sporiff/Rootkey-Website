@@ -8,7 +8,7 @@ Baku Social News
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2019-01-11-baku-social-news
+   :redirect: tech/2019-01-11-baku-social-news
 
 Technical Updates
 -----------------

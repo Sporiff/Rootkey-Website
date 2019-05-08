@@ -8,7 +8,7 @@ New Developments
    :category: Blog
    :location: Exeter
    :language: en
-   :redirect: 2019-04-18-new-developments
+   :redirect: blog/2019-04-18-new-developments
 
 It's Been a Little While
 ------------------------

@@ -8,7 +8,7 @@ New Site
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-10-01-new-site
+   :redirect: tech/2018-10-01-new-site
 
 As the astute among you may have noticed, this site has undergone some changes
 over the last couple of days. That's because I've now completely moved away

@@ -8,7 +8,7 @@ Knit and Perl
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-05-15-knit-and-perl
+   :redirect: tech/2018-05-15-knit-and-perl
 
 A Fun Experiment
 ----------------

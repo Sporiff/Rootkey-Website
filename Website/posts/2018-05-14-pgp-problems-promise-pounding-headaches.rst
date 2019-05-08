@@ -8,7 +8,7 @@ PGP Problems Promise Pounding Headaches
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-05-14-pgp-problems-promise-pounding-headaches
+   :redirect: tech/2018-05-14-pgp-problems-promise-pounding-headaches
 
 Let’s Clear Up Some FUD
 -----------------------

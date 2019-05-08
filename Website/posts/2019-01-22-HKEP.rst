@@ -8,7 +8,7 @@ HKEP
    :category: Music
    :location: Exeter
    :language: en
-   :redirect: 2019-01-22-HKEP
+   :redirect: music/2019-01-22-HKEP
 
 .. raw:: html
 

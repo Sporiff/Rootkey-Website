@@ -8,7 +8,7 @@ Tanuki Tunes Update
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2019-02-04-tanuki-tunes-update
+   :redirect: tech/2019-02-04-tanuki-tunes-update
 
 Another Funkwhale Update
 ------------------------

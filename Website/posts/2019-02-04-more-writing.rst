@@ -8,7 +8,7 @@ More writing
    :category: Blog
    :location: Exeter
    :language: en
-   :redirect: 2019-02-04-more-writing
+   :redirect: blog/2019-02-04-more-writing
 
 And Now For Something Completely Different
 ------------------------------------------

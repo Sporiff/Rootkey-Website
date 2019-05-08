@@ -8,7 +8,7 @@ Deploying and Controlling Google Chrome Settings Using Microsoft Intune
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-07-27-deploying-and-controlling-google-chrome-settings-using-microsoft-intune
+   :redirect: tech/2018-07-27-deploying-and-controlling-google-chrome-settings-using-microsoft-intune
 
 Righto. This one has given me a mild headache for the last couple of days, but I've found a workable 
 solution that allows me to set a home page for users in Chrome. You would have thought that would be 

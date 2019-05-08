@@ -8,7 +8,7 @@ Goodbye, Guix
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2019-02-05-goodbye-guix
+   :redirect: tech/2019-02-05-goodbye-guix
 
 A Fond Farewell
 ---------------

@@ -8,7 +8,7 @@ Back to the Drawing Board
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-06-16-back-to-the-drawing-board
+   :redirect: tech/2018-06-16-back-to-the-drawing-board
 
 For the past couple of weeks I've been trying out new things. New to me, anyway. And as you might expect, 
 I'm really bad at them. Let's talk about that!

@@ -8,7 +8,7 @@ Baku Social
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-12-22-bakusocial
+   :redirect: tech/2018-12-22-bakusocial
 
 I've been looking for a project recently to teach me some more about various technologies, 
 specifically public cloud stuff like AWS and container tech like Docker. I have been 

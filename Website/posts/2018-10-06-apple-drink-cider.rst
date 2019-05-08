@@ -8,7 +8,7 @@ Apple: Drink the Cider
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-10-06-apple-drink-cider
+   :redirect: tech/2018-10-06-apple-drink-cider
 
 Let me get this off my chest right now. I hate Apple. I hate iOS. I hate macOS. I hate the software, 
 the hardware, and the ethos of Apple. To my mind, Apple represents the very worst of the technology industry: 

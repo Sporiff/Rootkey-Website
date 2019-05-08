@@ -8,7 +8,7 @@ Getting on With Gutenberg
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-05-20-getting-on-with-gutenberg
+   :redirect: tech/2018-05-20-getting-on-with-gutenberg
 
 It seems like you can't use anything these days without spending a good amount of time trying to keep up with changes to the 
 product you're using. My partner frequently complains about apps on her phone being updated, only to find that entire sections

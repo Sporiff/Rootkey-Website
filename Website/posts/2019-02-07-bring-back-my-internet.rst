@@ -8,7 +8,7 @@ Bring Back My Internet
    :category: Blog
    :location: Exeter
    :language: en
-   :redirect: 2019-02-07-bring-back-my-internet
+   :redirect: blog/2019-02-07-bring-back-my-internet
 
 Mixed Messages
 --------------

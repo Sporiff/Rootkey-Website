@@ -8,7 +8,7 @@ Acclimitising to New Tech
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-05-10-acclimatising-to-new-tech
+   :redirect: tech/2018-05-10-acclimatising-to-new-tech
 
 My team recently moved away from a (frankly old and creaking) ManageEngine ServiceDesk solution to JIRA 
 for our Helpdesk. This has been met mostly with dismay by the majority of my team, so much so that I am one 

@@ -8,7 +8,7 @@ Microsoft Teams Deployment Headaches
    :category: Tech
    :location: Exeter
    :language: en
-   :redirect: 2018-07-14-microsoft-teams-deployment-headaches
+   :redirect: tech/2018-07-14-microsoft-teams-deployment-headaches
 
 So you want to use Microsoft Teams in your organisation, huh? Are you prepared for the pain? The lack of 
 documentation? The feeling of utter exasperation at a company unable to properly consider the needs of 

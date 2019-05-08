@@ -8,7 +8,7 @@ Progress
    :category: Blog
    :location: Exeter
    :language: en
-   :redirect: 2019-02-12-progress
+   :redirect: blog/2019-02-12-progress
 
 Making a difference
 -------------------

@@ -8,7 +8,7 @@ Funkwhale work
    :category: Blog
    :location: Exeter
    :language: en
-   :redirect: 2019-03-16-funkwhale-work
+   :redirect: blog/2019-03-16-funkwhale-work
 
 Throwing my Hat in the Ring
 ---------------------------
