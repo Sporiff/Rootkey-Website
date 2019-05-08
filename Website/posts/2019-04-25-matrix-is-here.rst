@@ -1,0 +1,74 @@
+==============
+Matrix is Here
+==============
+
+.. post:: Apr 25, 2019
+   :author: Sporiff
+   :tags: matrix, chat, tech, federation
+   :category: Tech
+   :location: Exeter
+   :language: en
+   :redirect: 2019-04-25-matrix-is-here
+
+I've Talked About it Before...
+------------------------------
+
+And it's finally here! After much head scratching, frustration, and
+eventually the building of an entirely new server, my Matrix server
+`garappa.chat <https://riot.garappa.chat>`_ is up and running. This
+has been something I've talked about doing for a while as I try to
+get away from all bigger services in favour of hosting my own. While
+`Mastodon <https://bakusocial.com/about>`_ and `Funkwhale <https://tanukitunes.com>`_
+where considerably easier to set up, I have a feeling it will be worth it
+in the end.
+
+This Was a Fight
+----------------
+
+For as long as I've used `Matrix <https://matrix.org>`_ I have used
+the flagship server due to how prohibitively difficult it seemed to
+be to set up a `synapse server <https://matrix.org/docs/projects/server/synapse.html>`_.
+Having tried setting the server up as both a Docker container and a
+native set of applications on the same server as the other two services,
+I eventually conceded that I was going to need a clean sheet for this
+one.
+
+So to `DO <https://digitalocean.com>`_ we go to spin up a new VPS for
+my new whim. As I sat about getting the server itself ready for yet another
+Docker fight I decided to do some reading on other people's struggles
+with Synapse and what could be done about it. The results were pretty
+discouraging, with many people hitting quite significant dead-ends and
+being unable to fix the issue before their patience ran out. However,
+while looking into other server options I chanced upon a certain
+`Ansible Playbook <https://github.com/spantaleev/matrix-docker-ansible-deploy>`_...
+
+Having never used Ansible before I started doing some poking around.
+In my first run I tried running it from the server as I was pretty
+much clueless when it came to what Ansible was or how it was supposed
+to work. After a while, though, I started to see some results. With
+each new parameter passed I was seeing features added. With one last
+push this morning I finally got S3 media uploads working, which should
+hopefully help some with storage costs. Now I want to use Ansible for
+everything. Whoops!
+
+Less Exciting News
+------------------
+
+With all that excitement here is a bit of less important but still
+fun news: this website will be written in `rST <http://docutils.sourceforge.net/rst.html>`_
+instead of Markdown. The reason for this is trivial, but still important.
+rST is a proper standard and a really pleasing way to write documents.
+I can be confident that what I write in one place will render the same
+elsewhere in a way I can't always be with Markdown. MD is still
+one of my favourite tools and I use it extensively at work, but for
+now I'm going to focus my efforts more on mastering reStructuredText
+for my work with `the Funkwhale project <https://funkwhale.audio>`_
+
+A Worthy Note
+-------------
+
+As an aside, I have been having a fantastic time interacting with the
+FW community. A more supportive group of people I couldn't wish to know.
+The project keeps exceeding my expectations and the people involved show
+a real interest in improving the community and the level of interaction,
+which as a novice programmer is really encouraging to see.
