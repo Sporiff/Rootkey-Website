@@ -64,9 +64,9 @@ verifies a bunch of regkeys. The one we're interested in is this one:
 
 .. code-block:: bat
 
-  <pre class="wp-block-code"><code>HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+  HKCU\Software\Microsoft\Windows\CurrentVersion\Run
   com.squirrel.Teams.Teams
-  C:\Users\%currentuser%\AppData\Local\Microsoft\Teams\Update.exe --processStart "Teams.exe" --process-start-args "--system-initiated"</code></pre>
+  C:\Users\%currentuser%\AppData\Local\Microsoft\Teams\Update.exe --processStart "Teams.exe" --process-start-args "--system-initiated"
 
 So, by creating a login script using group policy which searches for and removes this key, we effectively wipe 
 out the autostart behaviour. Now, we have a working Teams deployment on SCCM. As for Intune, it remains to be seen 

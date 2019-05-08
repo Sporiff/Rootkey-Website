@@ -115,6 +115,6 @@ drive to point to the script's location and use another PowerShell script to cop
    #Remove authority from CCM
    
    $MyPath = “HKLM:\SOFTWARE\Microsoft”
-   Remove-Item -Path $MyPath\DeviceManageabilityCSP -Force -Recurse -ErrorAction SilentlyContinue</code></pre>
+   Remove-Item -Path $MyPath\DeviceManageabilityCSP -Force -Recurse -ErrorAction SilentlyContinue
 
 A little lengthy compared to the last one, but lo and behold Intune picked up the new machine and started applying policies. Huzzah!

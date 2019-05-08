@@ -84,9 +84,9 @@ First, we add a step in the TS to map a network drive. We point this to the UNC 
 server where the PPKG is stored and we use a login with the relevant permissions to access it so we can be sure it's 
 picking it up. Then, we write the Powershell script to actually install the ppkg:
 
-.. code-block:: powershell
+.. code-block:: bat
 
-    Install-ProvisioningPackage -Path "YourPackage.ppkg" -ForceInstall -QuietInstall</code></pre>
+    Install-ProvisioningPackage -Path "YourPackage.ppkg" -ForceInstall -QuietInstall
 
 Now just package up that script, add a step to run it after mapping the drive. Badda-bing, badda-boom, the 
 machine now joins AAD with the name you assigned in the TS. Hooray!
@@ -104,7 +104,7 @@ The trick here is the order in which you do things. This Bitlocker step should o
 Join step we made earlier. The machine will then need to provision a key, back up the key to Azure AD and then encrypt 
 the drive with that key. The script looks like this:
 
-.. code-block:: powershell
+.. code-block:: bat
 
     #Provision the key first and force it to encrypt the drive with the provisioned key
 
@@ -120,7 +120,7 @@ the drive with that key. The script looks like this:
 
     #Enable Bitlocker on the system drive (without a login pin)
 
-    Enable-BitLocker -MountPoint "C:" -EncryptionMethod XtsAes256 -UsedSpaceOnly -TpmProtector </code></pre>
+    Enable-BitLocker -MountPoint "C:" -EncryptionMethod XtsAes256 -UsedSpaceOnly -TpmProtector
 
 Package it, add the step, and move on with your life. The machine will now Bitlocker the used space and back the 
 key up to the item in Azure AD.
