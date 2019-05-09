@@ -13,6 +13,9 @@ import sys
 import ablog
 import alabaster
 
+def setup(app):
+    app.add_stylesheet('css/custom.css')
+
 # -- General ABlog Options ----------------------------------------------------
 
 # A path relative to the configuration directory for blog archive pages.
@@ -353,7 +356,3 @@ html_search_language = 'en'
 htmlhelp_basename = 'Rootkeydoc'
 
 html_extra_path = ['resume.html', 'keybase.txt']
-
-extra_nav_links = 'resume.html'
-
-donate_url = 'https://liberapay.com/CiaranAinsworth/donate'
