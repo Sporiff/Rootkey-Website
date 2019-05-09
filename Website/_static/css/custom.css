@@ -1,0 +1,125 @@
+/*--Page Layout---------------------------------------------------*/
+
+body {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    color: #839496;
+    background-color: #002b36;
+}
+
+div.body {
+    background-color: #002b36;
+    color: #839496;
+}
+
+tt, 
+code {
+    color: #d30102;
+}
+
+/*--Links---------------------------------------------------------*/
+
+a {
+    color: #b58900;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #268bd2;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #268bd2;
+}
+
+a.reference {
+    text-decoration: none;
+    border-bottom: 1px dotted #004B6B;
+}
+
+a.reference:hover {
+    border-bottom: 1px solid #6D4100;
+}
+
+/*--Headers-------------------------------------------------------*/
+
+h1 {
+    color: #b58900;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #b58900;
+}
+
+/*--Blocks----------------------------------------------------------*/
+
+pre {
+    background-color: #002b36;
+    color: #839496;
+    border: 1pt solid #586e75;
+    padding: 1em;
+    box-shadow: 5pt 5pt 8pt #073642;
+}
+
+span.pre {
+    background-color: #002b36;
+}
+
+div.note {
+    background-color: #002b36;
+    color: #b58900;
+    border: 1px solid #586e75;
+}
+
+div.warning {
+    background-color: #eee8d5;
+    border: 1px solid #93a1a1;
+    color: #586e75;
+}
+
+/*--Sidebar----------------------------------------------------------*/
+
+div.sphinxsidebar a {
+    color: #b58900;
+    text-decoration: none;
+    border-bottom: 1px dotted #b58900;
+}
+
+div.sphinxsidebar a:hover {
+    border-bottom: 1px solid #cb4b16;
+}
+
+div.sphinxsidebar h3 a {
+    color: #b58900;
+}
+
+div.sphinxsidebar p.logo a, 
+div.sphinxsidebar h3 a, 
+div.sphinxsidebar p.logo a:hover, 
+div.sphinxsidebar h3 a:hover {
+    border: none;
+}
+
+div.sphinxsidebar h3, 
+div.sphinxsidebar h4 {
+    font-family: Georgia, serif;
+    color: #b58900;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+div.sphinxsidebar ul {
+    color: #b58900;
+}
+
+a.headerlink:hover {
+    color: #b58900;
+    background: #002b36;
+}
