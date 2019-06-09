@@ -1,1 +1,3 @@
 .vscode/*
+Website/__pycache__/*
+Website/_website/*
