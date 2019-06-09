@@ -1,8 +1,8 @@
 Rootkey-Website
 ===============
 
-.. image:: https://api.netlify.com/api/v1/badges/8babbced-b965-42fa-96c9-a436ed281b1b/deploy-statu://api.netlify.com/api/v1/badges/8babbced-b965-42fa-96c9-a436ed281b1b/deploy-status
-   :target: https://app.netlify.com/sites/rooykey/deploys
+.. image:: https://api.netlify.com/api/v1/badges/8babbced-b965-42fa-96c9-a436ed281b1b/deploy-status
+   :target: https://app.netlify.com/sites/rootkey/deploys
    :alt: Netlify Status
 
 A simple static page blog written in reStructuredText.
