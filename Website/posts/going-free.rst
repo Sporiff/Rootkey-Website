@@ -47,11 +47,10 @@ as a product, so it seemed silly to stick around using it. Twitter
 was a little harder to give up on, but eventually I moved away in favour
 of my own `Mastodon server <https://bakusocial.com>`_.
 
-For chat, `Matrix.org`_ seems to be the ideal candidate to take
+For chat, Matrix_ seems to be the ideal candidate to take
 over from proprietary solutions. I tend to use this with Weechat,
-but the more glossy clients such as `Riot.im`_ and
-`Fractal <https://wiki.gnome.org/Apps/Fractal>`_ are also available
-for people not so inclined to use a terminal application.
+but the more glossy clients such as Riot_ and Fractal_ are also 
+available for people not so inclined to use a terminal application.
 
 Productivity
 ------------
@@ -82,7 +81,11 @@ the freedom to do with your games as you will. Luckily, I don't play games
 on my computer much.
 
 I've been able to replace Soundcloud/Spotify/Google Play Music with
-`Funkwhale <https://funkwhale.audio>`_ and have enjoyed being able to run
-this with the `mopidy-subidy <https://github.com/Prior99/mopidy-subidy>`_
-plugin on my machine.
+Funkwhale_ and have enjoyed being able to run this with the 
+mopidy-subidy_ plugin on my machine.
 
+.. _Matrix: https://matrix.org
+.. _Riot: https://riot.im
+.. _Fractal: https://wiki.gnome.org/Apps/Fractal
+.. _Funkwhale: https://funkwhale.audio
+.. _mopidy-subidy: https://github.com/Prior99/mopidy-subidy
