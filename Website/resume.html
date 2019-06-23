@@ -11,6 +11,9 @@
       span.underline{text-decoration: underline;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
   <style type="text/css">
   /*
    * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
@@ -117,11 +120,11 @@
 <dl>
 <dt>2015-2016</dt>
 <dd><p><strong>MA, English Literature</strong>; The University of Exeter</p>
-<p><em>Thesis title: &quot;“The Way it Used to Be”: Mono No Aware and the Tanuki in Isao Takahata’s Pom Poko&quot;</em></p>
+<p><em>Thesis title: "“The Way it Used to Be”: Mono No Aware and the Tanuki in Isao Takahata’s Pom Poko"</em></p>
 </dd>
 <dt>2012-2015</dt>
 <dd><p><strong>BA, Film and Television Studies</strong>; Prifysgol Aberystywth</p>
-<p><em>Dissertation title: &quot;“It’s Not of This World”: An Analysis of How the Onryō Inflitrated the Western Horror Market&quot;</em></p>
+<p><em>Dissertation title: "“It’s Not of This World”: An Analysis of How the Onryō Inflitrated the Western Horror Market"</em></p>
 </dd>
 <dt>2014-2014</dt>
 <dd><p><strong>Semester Abroad</strong>; Hong Kong Baptist University</p>
@@ -129,6 +132,14 @@
 </dd>
 </dl>
 <h2 id="work-experience">Work Experience</h2>
+<p><strong>Project Maintainer and Steering Committee Member: Funkwhale Association 2019 - Present</strong></p>
+<p>Key Responsibilities:</p>
+<ul>
+<li><p>Help with planning development roadmaps and managing the community</p></li>
+<li><p>Participate in testing of new releases and provide detailed feedback</p></li>
+<li><p>Contribute bugfixes and new features to the application based on community feedback</p></li>
+<li><p>Offer support in the project’s forums and chatrooms</p></li>
+</ul>
 <p><strong>Technical Support Analyst: Oneserve 2018 - Present</strong></p>
 <p>Key Responsibilities:</p>
 <ul>
@@ -162,14 +173,14 @@
 <ul>
 <li>I host my own <a href="https://bakusocial.com" target="_blank">Mastodon instance</a> on DigitalOcean using Docker and Nginx, with Amazon S3 as a media store</li>
 <li>I also host a <a href="https://tanukitunes.com" target="_blank">Funkwhale server</a> on a similar setup to the above</li>
-<li>My <a href="https://rootkey.co.uk" target="_blank">website</a> is built using Hugo and CI tools at <a href="https://netlify.com" target="_blank">Netlify</a>, and is hosted publically on <a href="https://github.com/Sporiff/Rootkey-Website" target="_blank">GitHub</a></li>
+<li>My <a href="https://rootkey.co.uk" target="_blank">website</a> is built using Sphinx and CI tools at <a href="https://netlify.com" target="_blank">Netlify</a>, and is hosted publicly on <a href="https://gitlab.com/Sporiff/Rootkey-Website" target="_blank">GitLab</a></li>
 <li>I make use of open source tools to recover data for people who have experienced data loss or corruption</li>
 </ul>
 </dd>
 <dt>Open Source</dt>
 <dd><p>As a big supporter of Free and Open Source software, I try to help out with FOSS projects wherever I can.</p>
 <ul>
-<li>I am a contributing developer, translator, steering committee member, and lead documentation writer for <a href="https://funkwhale.audio" target="_blank">Funkwhale</a>, and led a project to completely rewrite and rework all documentation</li>
+<li>I am a project maintainer, contributing developer, translator, steering committee member, and lead documentation writer for <a href="https://funkwhale.audio" target="_blank">Funkwhale</a>. In this capacity I have contributed new features and bugfixes, and have also led a project to completely overhaul user documentation.</li>
 <li>I contribute translations to Japanese, English, and Dutch for various projects on <a href="https://github.com/Sporiff" target="_blank">GitHub</a></li>
 <li>I am the primary en-gb localiser for the <a href="https://elementary.io" target="_blank">elementaryOS</a> project</li>
 <li>I am active in troubleshooting channels for <a href="https://gnu.org/software/guix" target="_blank">GNU Guix</a> and Funkwhale</li>
@@ -178,13 +189,17 @@
 <dt>Programming Languages</dt>
 <dd><strong>Microsoft SQL:</strong> In my current role I do a lot of work in SQL, ranging from data uploads to mass alterations of existing data. Many investigations require deconstructing scripts and stored procedures to assess their outcomes, as well as finding issues across the schema and correcting these in a timely manner. I have also been active in creating stored procedures for use in our application.
 </dd>
-<dd><p><strong>PowerShell:</strong> During my time as an SCCM administrator, I made use of PowerShell on a daily basis to automate complex tasks and find creative solutions to problems posed by our early adoption of Windows 10 and Microsoft InTune. I wrote a script to automate the process of <a href="https://github.com/Sporiff/Sophos-Install" target="_blank">deploying Sophos AV</a>, which I uploaded to GitHub for other administrators to make use of.</p>
+<dd><p><strong>PowerShell:</strong> During my time as an SCCM administrator, I made use of PowerShell on a daily basis to automate complex tasks and find creative solutions to problems posed by our early adoption of Windows 10 and Microsoft InTune. I wrote a script to automate the process of <a href="https://gitlab.com/Sporiff/Sophos-Install" target="_blank">deploying Sophos AV</a>, which I uploaded to GitLab for other administrators to make use of.</p>
 </dd>
 <dd><p><strong>BASH:</strong> I make heavy use of BASH in both my professional and personal life. As a server administrator I operate mostly in BASH and BASH scripts, and have made use of several of these scripts to automate my personal computers in the same way as my servers.</p>
 </dd>
-<dd><p><strong>Python:</strong> I have studied Python in my free time using tools such as <a href="https://codecademy.com" target="_blank">codecademy</a> and have made good use of it in my working life, creating small programs to query the Zendesk API to give a notification when documents need updating. I also wrote a <a href="https://gitsune.site/Sporiff/tsukumogami" target="_blank">bot for Mastodon</a> in Python using the Mastodon REST API.</p>
+<dd><p><strong>Python:</strong> I have studied Python in my free time using tools such as <a href="https://codecademy.com" target="_blank">codecademy</a> and have made good use of it in my working life, creating small programs to query the Zendesk API to give a notification when documents need updating. I also wrote a <a href="https://gitlab.com/Sporiff/tsukumogami" target="_blank">bot for Mastodon</a> in Python using the Mastodon REST API.</p>
 </dd>
-<dd><p>Basic knowledge of <strong>C</strong>, <strong>.NET</strong>, <strong>Guile Scheme</strong>, <strong>Java</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>VueJS</strong></p>
+<dd><p><strong>Vue.JS:</strong> Most of my contributions to Funkwhale are frontend fixes written in Vue.JS and vanilla JS.</p>
+</dd>
+<dd><p><strong>CSS/HTML:</strong> I have created websites and worked with HTML/CSS to create new features for Funkwhale and also to rewrite my company’s Zendesk help centre.</p>
+</dd>
+<dd><p>Basic knowledge of <strong>C</strong>, <strong>.NET</strong>, <strong>Guile Scheme</strong>, <strong>Java</strong></p>
 </dd>
 </dl>
 <h2 id="additional-skills">Additional Skills</h2>
@@ -215,7 +230,7 @@
 </ul>
 <hr />
 <blockquote>
-<p><a href="mailto:ciaranainsworth@posteo.net">ciaranainsworth@posteo.net</a> • +44 07543507494 • DoB 25/02/1994<br />
+<p><a href="mailto:ciaranainsworth@posteo.net" class="email">ciaranainsworth@posteo.net</a> • +44 07543507494 • DoB 25/02/1994<br />
 Address - 19 Stoke Valley Road, Exeter, United Kingdon</p>
 </blockquote>
 </body>
