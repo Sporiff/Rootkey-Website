@@ -12,7 +12,7 @@ Life Inside a Computer
 Recent Blog Posts
 ^^^^^^^^^^^^^^^^^
 
-.. postlist:: 2
+.. postlist:: 1
    :author: Sporiff
    :location: Exeter
    :language: en
