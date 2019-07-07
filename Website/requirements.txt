@@ -1,4 +1,4 @@
-Sphinx==2.0.1
+Sphinx==2.1.2
 pip==19.1.1
 ablog==0.9.4
 pygments_solarized==0.0.3
